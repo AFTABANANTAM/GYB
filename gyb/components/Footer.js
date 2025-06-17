@@ -12,10 +12,10 @@ export default function Footer() {
             <p>+91-7667874959<br/>getyourbook.club@nitp.ac.in</p>
             <p className="mt-2">National Institute of Technology Patna <br/>Ashok Rajpath, Mahendru<br/>Patna, Bihar 800005</p>
             <div className="flex space-x-4 mt-4 text-lg">
-              <a href=""><FaFacebookF /></a>
-              <a href="https://www.instagram.com/gyb_nitp/?igsh=M292bDFlMzM4MGVj"><FaInstagram /></a>
-              <a href="https://www.linkedin.com/company/get-your-book-nitp/"><FaLinkedin /></a>
-              <a href="https://www.youtube.com/@gybnitp"><FaYoutube /></a>
+              <a target='_blank' href=""><FaFacebookF /></a>
+              <a target='_blank' href="https://www.instagram.com/gyb_nitp/?igsh=M292bDFlMzM4MGVj"><FaInstagram /></a>
+              <a target='_blank' href="https://www.linkedin.com/company/get-your-book-nitp/"><FaLinkedin /></a>
+              <a target='_blank' href="https://www.youtube.com/@gybnitp"><FaYoutube /></a>
             </div>
           </div>
 
