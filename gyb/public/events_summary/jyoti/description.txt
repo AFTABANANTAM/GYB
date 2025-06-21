@@ -1,0 +1,23 @@
+<div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md">
+  <h1 class="text-3xl font-bold text-yellow-600 mb-4">A Festival of Light and Love</h1>
+
+  <p class="text-gray-800 mb-4">
+    <strong class="text-yellow-700">Jyoti</strong> is a beautiful initiative organized by the
+    <strong>GYB Club, NIT Patna</strong>, every Diwali, with a simple yet powerful purpose —
+    to celebrate the festival of lights with underprivileged and orphaned children.
+  </p>
+
+  <p class="text-gray-800 mb-4">
+    During this event, the team visits a local orphanage, spending quality time with the kids —
+    lighting diyas, sharing sweets, playing games, and spreading joy. Along with celebrations,
+    they also donate essential items like sanitary napkins, mosquito nets, blankets, and study
+    materials to support the children's daily needs.
+  </p>
+
+  <p class="text-gray-800">
+    But what truly makes <strong class="text-yellow-700">Jyoti</strong> special is the heartfelt
+    care taken to ensure that the children never feel the absence of their parents during the
+    celebration. Instead of making them emotional, the volunteers focus on bringing genuine
+    happiness, laughter, and love, making them feel cherished, not pitied.
+  </p>
+</div>

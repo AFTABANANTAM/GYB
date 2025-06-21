@@ -1,0 +1,35 @@
+<div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md mt-8">
+  <h1 class="text-3xl font-bold text-purple-600 mb-4">
+    Fun Premier League 🏏🔥
+  </h1>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    Bore ho rahe ho? 🙃 College vibes miss ho rahi? Doston ke saath masti yaad aa rahi? 😁
+  </p>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    Toh tension not – <strong class="text-purple-700">Masti ka doosra innings</strong> shuru hone wala hai!
+  </p>
+
+  <p class="text-gray-800 mb-4 text-sm">
+    <strong>GYB Club, NIT Patna</strong> brings to you the ultimate cricket-themed brain battle –
+    <strong class="text-purple-700">Fun Premier League</strong>, a 3-day online IPL quiz war full of excitement,
+    eliminations, and epic prizes!
+  </p>
+
+  <ul class="list-disc list-inside text-gray-800 text-sm space-y-1 mb-4">
+    <li>🗓️ <strong>4th – 6th July</strong> | <strong>3 Rounds</strong> | Daily Knockout Eliminations</li>
+    <li>💻 <strong>Online Mode</strong> – Play from anywhere!</li>
+    <li>🎁 <strong>Prizes:</strong></li>
+    <ul class="list-disc list-inside pl-5 space-y-1">
+      <li>🥇 RCB / Your Fav Team Jersey</li>
+      <li>🥈 Custom Phone Cover (Your Fav Team)</li>
+      <li>🥉 IPL Poster</li>
+    </ul>
+  </ul>
+
+  <p class="text-gray-800 text-sm">
+    Cricket ke fan ho ya quiz ke king – yeh toh har kisi ke liye hai! 🧠🏆<br />
+    <span class="text-purple-700 font-semibold">Register now and let the games begin!</span>
+  </p>
+</div>

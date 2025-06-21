@@ -1,0 +1,27 @@
+<div class="max-w-4xl mx-auto px-4 py-5 bg-white rounded-lg shadow-md mt-6">
+  <h1 class="text-2xl font-bold text-blue-600 mb-3">
+    A Celebration by Engineers, for Engineers! 🎉
+  </h1>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    It is an evening bursting with energy, talent, and celebration as
+    <strong>GYB (Get Your Book) Club, NIT Patna</strong> proudly presents
+    <strong class="text-blue-700">Abhiyanta</strong> – an event specially crafted for Engineers, by Engineers!
+  </p>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    Organized in honor of <strong>Engineers’ Day</strong>, this event brings together the brightest and most
+    talented performers from our campus for an unforgettable night of:
+  </p>
+
+  <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
+    <li>🎤 <strong>Stand-Up Comedy</strong> – Get ready to laugh till your stomach hurts!</li>
+    <li>🎶 <strong>Musical Performances</strong> – From soulful solos to powerful duets, music will set the mood just right.</li>
+    <li>🧠 <strong>Exciting Quizzes</strong> – Test your brainpower and win the crowd.</li>
+    <li>🎭 <strong>Full-On Entertainment</strong> – A complete dose of fun, joy, and connection!</li>
+  </ul>
+
+  <p class="text-gray-800 text-sm mt-3">
+    Come be a part of the engineer-powered celebration that redefines fun, intellect, and community all in one night!
+  </p>
+</div>

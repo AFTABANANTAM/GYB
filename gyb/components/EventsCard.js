@@ -23,11 +23,21 @@ export default function EventsCard({ events }) {
             />
           </div>
           <div className="md:w-1/2 w-full flex flex-col justify-center p-6 text-black">
-            <h2 className="text-2xl font-bold mb-2 text-yellow-400">{event.title}</h2>
-            <p className="mb-4">{event.description}</p>
-            <button className="bg-yellow-400 cursor-pointer text-black px-4 py-2 rounded hover:bg-yellow-300 font-semibold w-max">
+            <h2 className="text-3xl font-bold text-yellow-400">{event.title}</h2>
+            <p className="mb-4 text-sm text-black font-serif"  dangerouslySetInnerHTML={{ __html: event.description }}></p>
+
+            {!event.open&&<button className="bg-yellow-400 cursor-pointer text-black px-4 py-2 rounded hover:bg-yellow-300 font-semibold w-max">
               Learn More
-            </button>
+            </button>}
+            {event.open&& <div class="mt-4">
+    <a
+      href="#"
+      target="_blank"
+      class="inline-block bg-purple-600 text-white font-semibold px-6 py-2 rounded hover:bg-purple-700 transition-colors duration-200"
+    >
+      Register Now
+    </a>
+  </div>}
           </div>
         </div>
       ))}

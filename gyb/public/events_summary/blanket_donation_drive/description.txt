@@ -1,0 +1,29 @@
+<div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md mt-8">
+  <h1 class="text-3xl font-bold text-red-600 mb-4">
+    Spreading Warmth, One Blanket at a Time
+  </h1>
+
+  <p class="text-gray-800 mb-4">
+    In the chilly months of winter, while many of us find comfort under warm blankets, there are countless people who
+    brave the cold with little to no protection. Understanding this harsh reality,
+    <strong>GYB Club, NIT Patna</strong> organizes a heartfelt initiative — the
+    <strong class="text-red-700">Blanket Donation Drive</strong>.
+  </p>
+
+  <p class="text-gray-800 mb-4">
+    Through this event, the club reaches out to the underprivileged and homeless communities, distributing blankets
+    to those who need them the most. It’s not just about offering warmth from the outside, but also showing care,
+    compassion, and humanity from the inside.
+  </p>
+
+  <p class="text-gray-800 mb-4">
+    Each blanket handed out is more than just fabric — it’s a gesture of hope, a symbol of support, and a reminder
+    that no one is forgotten.
+  </p>
+
+  <p class="text-gray-800">
+    This drive reflects the true spirit of giving, where students come together to make winters a little kinder
+    for those less fortunate.<br />
+    <strong class="text-red-700">Because sometimes, the smallest act of kindness can bring the greatest warmth.</strong>
+  </p>
+</div>

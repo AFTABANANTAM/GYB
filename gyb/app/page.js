@@ -1,29 +1,42 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import EventsCard from "@/components/EventsCard";
+import fs from 'fs';
+import path from 'path';
 export default function Home() {
-  const events = [
-    {
-      title: "Book Launch",
-      description: "Join us for the launch of our latest book. Enjoy readings, signings, and more.",
-      image: "/images/img1.jpg",
-    },
-    {
-      title: "Author Meetup",
-      description: "Meet your favorite authors and get your books signed.",
-      image: "/images/img2.jpg",
-    },
-    {
-      title: "Book Fair",
-      description: "Explore a wide range of books at our annual book fair. Great deals and special editions await!",
-      image: "/images/img3.jpg",
-    },
-    {
-      title: "Reading Marathon",
-      description: "Participate in our reading marathon. Read as many books as you can in 24 hours!",
-      image: "/images/img4.jpg",
-    },
-  ];
+  const eventsDir = path.join(process.cwd(), 'public', 'upcoming_events');
+  // console.log('dir : ' ,eventsDir);
+  const eventFolders = fs.readdirSync(eventsDir).filter(folder =>
+    fs.statSync(path.join(eventsDir, folder)).isDirectory()
+  );
+  // console.log('folders ' , eventFolders);
+
+  const events = eventFolders.map(folder => {
+    const folderPath = path.join(eventsDir, folder);
+
+    // 1. Description text
+    let description = '';
+    const descPath = path.join(folderPath, 'description.txt');
+    if (fs.existsSync(descPath)) {
+      description = fs.readFileSync(descPath, 'utf-8');
+    }
+
+    // 2. Find first image in the folder
+    const imageFile = fs.readdirSync(folderPath).find(file =>
+      file.match(/\.(png|jpg|jpeg|webp)$/i)
+    );
+    console.log('getted img : ' , imageFile);
+    const imagePath = imageFile ? `/upcoming_events/${folder}/${imageFile}` : null;
+
+    // 3. Add to array
+    return {
+      title: folder.replace(/[-_]/g, ' ').toUpperCase(),
+      folder,
+      description,
+      image: imagePath,
+      open : true,
+    };
+  });
   return (
     <>
       <main className="bg-white text-black min-h-screen font-sans p-0 m-0">
