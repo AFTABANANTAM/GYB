@@ -39,7 +39,7 @@ export default function Navbar() {
         {/* Donate Button */}
         <div className="hidden md:block">
           <Link href="/donate">
-            <button className="border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
+            <button className=" cursor-pointer border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
               Donate Us
             </button>
           </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
           <Link href="/events" className="block" onClick={() => setMenuOpen(false)}>Events</Link>
           <Link href="/members" className="block" onClick={() => setMenuOpen(false)}>Members</Link>
           <Link href="/donate" className="inline-block mt-2">
-            <button className="w-full border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
+            <button className=" cursor-pointer w-full border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
               Donate Us
             </button>
           </Link>
