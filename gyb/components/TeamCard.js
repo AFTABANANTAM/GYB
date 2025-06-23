@@ -2,7 +2,7 @@ import React from 'react'
 import { FaEnvelope } from "react-icons/fa";
 function TeamCard({ members }) {
     return (
-        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center">
+        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center px-5">
             {members.map((member,idx) => (
                 <div key={idx} className="bg-yellow-300 py-15 rounded-2xl shadow-xl p-6 text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl w-full max-w-sm">
                     <div className="flex justify-center mb-4">

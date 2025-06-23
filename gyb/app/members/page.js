@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import TeamCard from '@/components/TeamCard'
 
 function page() {
@@ -140,10 +141,40 @@ function page() {
   },
 ]
 
+  // Get unique positions for filter options
+  const positions = ["All", ...Array.from(new Set(teamMembers.map(m => m.position)))];
+  const [selectedPosition, setSelectedPosition] = useState("All");
+
+  const filteredMembers =
+    selectedPosition === "All"
+      ? teamMembers
+      : teamMembers.filter(m => m.position === selectedPosition);
+
   return (
     <div>
-      <h1 className="mt-2 text-4xl my-4 text-center fraunces">Meet the Cool Crew</h1>
-      <TeamCard members={teamMembers}/>
+      <h1 className="mt-2 text-4xl my-4 text-center fraunces text-yellow-400 drop-shadow">
+        Meet the Cool Crew
+      </h1>
+      {/* Simple Filter Dropdown */}
+      <div className="flex justify-center mb-8">
+        <label
+          htmlFor="position-filter"
+          className="mr-3 text-lg font-medium text-gray-800"
+        >
+          Filter by Team and Positions :
+        </label>
+        <select
+          id="position-filter"
+          className="border border-yellow-400 rounded px-4 py-2 text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-300 transition"
+          value={selectedPosition}
+          onChange={e => setSelectedPosition(e.target.value)}
+        >
+          {positions.map(pos => (
+            <option key={pos} value={pos}>{pos}</option>
+          ))}
+        </select>
+      </div>
+      <TeamCard  members={filteredMembers} />
     </div>
   )
 }
