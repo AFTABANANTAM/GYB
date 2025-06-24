@@ -11,7 +11,7 @@ function Page() {
     year: '4th Year',
     position: 'President',
     email: 'shivk.ug22.ce@nitp.ac.in',
-    image: '/images/president1.jpg', // place the image in /public/images/
+    image: '/images/SHIV.jpg', // place the image in /public/images/
   },
 {
    id: 2,
