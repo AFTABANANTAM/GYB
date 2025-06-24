@@ -83,7 +83,7 @@ function Page() {
     year: '4th Year',
     position: 'Media Coordinator',
     email: 'hiteshp.dd22.cs@nitp.ac.in',
-    image: '/images/HITESH.PNg', // place the image in /public/images/
+    image: '/images/HITESH.png', // place the image in /public/images/
   },
 {
     id: 10,
@@ -119,7 +119,7 @@ function Page() {
     year: '1st Year',
     position: 'Logistics Coordinator',
     email: 'anantam@example.com',
-    image: '/images/vikash.jpg', // place the image in /public/images/
+    image: '/images/VIKASH.jpg', // place the image in /public/images/
   },
 {
     id: 14,
@@ -128,7 +128,7 @@ function Page() {
     year: '4th Year',
     position: 'Senior Member',
     email: 'adityak.ug22.ec@nitp.ac.in',
-    image: '/images/aditya.jpg', // place the image in /public/images/
+    image: '/images/aditya.jpeg', // place the image in /public/images/
   },
 {
     id: 15,
