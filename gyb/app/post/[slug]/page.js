@@ -10,7 +10,7 @@ const images = [
   "/images/img4.jpg"
 ];
 
-export default function Page() {
+export default function PostPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
