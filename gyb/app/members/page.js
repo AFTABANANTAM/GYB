@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import TeamCard from '@/components/TeamCard'
 
-function page() {
+function Page() {
   const teamMembers = [
   {
      id: 1,
@@ -179,4 +179,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
