@@ -137,7 +137,7 @@ function Page() {
     year: '4th Year',
     position: 'Senior Member',
     email: 'garimak.ug22.me@nitp.ac.in',
-    image: '/images/GARIMA.png', // place the image in /public/images/
+    image: '/images/garima.png', // place the image in /public/images/
   },
 ]
 
