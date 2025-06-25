@@ -1,13 +1,6 @@
 import EventPage from "@/components/EventPage";
 import fs from "fs";
 import path from "path";
-const images = [
-  "/images/img1.jpg",
-  "/images/img2.jpg",
-  "/images/img3.jpg",
-  "/images/img4.jpg"
-];
-
 export default function page({params}) {
 
   const folder = params.slug;
@@ -17,7 +10,7 @@ export default function page({params}) {
   if (fs.existsSync(descPath)) {
     description = fs.readFileSync(descPath, 'utf-8');
   }
-  console.log('description : ', description);
+  // console.log('description : ', description);
   const images = fs.readdirSync(path.join(eventsDir, folder)).filter(file =>
     file.match(/\.(png|jpg|jpeg|webp)$/i)
   );

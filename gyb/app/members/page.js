@@ -2,8 +2,7 @@
 import React, { useState } from 'react'
 import TeamCard from '@/components/TeamCard'
 
-function page() {
-  
+function Page() {
   const teamMembers = [
   {
      id: 1,
@@ -12,7 +11,7 @@ function page() {
     year: '4th Year',
     position: 'President',
     email: 'shivk.ug22.ce@nitp.ac.in',
-    image: '/images/shiv.jpg', // place the image in /public/images/
+    image: '/images/SHIV.jpg', // place the image in /public/images/
   },
 {
    id: 2,
@@ -21,7 +20,7 @@ function page() {
     year: '4th Year',
     position: 'Vice President',
     email: 'ronakd.ug22.cs@nitp.ac.in',
-    image: '/images/ronak.jpg', // place the image in /public/images/
+    image: '/images/RONAK DASS.jpg', // place the image in /public/images/
   },
 {
     id: 3,
@@ -30,7 +29,7 @@ function page() {
     year: '4th Year',
     position: 'Treasurer',
     email: 'harshdeep.ug22.ce@nitp.ac.in',
-    image: '/images/harshdeep.jpg', // place the image in /public/images/
+    image: '/images/HARSHDEEP.jpg', // place the image in /public/images/
   },
 {
     id: 4,
@@ -39,7 +38,7 @@ function page() {
     year: '4th Year',
     position: 'Secretary',
     email: 'preetyr.ug22.ee@nitp.ac.in',
-    image: '/images/preety.jpg', // place the image in /public/images/
+    image: '/images/PREETY RANI.jpg', // place the image in /public/images/
   },
 {
     id: 5,
@@ -48,7 +47,7 @@ function page() {
     year: '4th Year',
     position: 'PR-Coordinator',
     email: 'anushat.ug22.ce@nitp.ac.in',
-    image: '/images/anusha.jpg', // place the image in /public/images/
+    image: '/images/ANUSHA TANK.jpg', // place the image in /public/images/
   },
 {
     id: 6,
@@ -57,7 +56,8 @@ function page() {
     year: '4th Year',
     position: ' Technical Coordinator',
     email: 'sameerg.ug22.ec@nitp.ac.in',
-    image: '/images/sameer.jpg', // place the image in /public/images/
+    image: '/images/SAMEER GUPTA.jpg', // place the image in /public/images/
+
   },
 {
     id: 7,
@@ -66,7 +66,7 @@ function page() {
     year: '4th Year',
     position: 'Event Coordinator',
     email: 'piyushk.dd22.ee@nitp.ac.in',
-    image: '/images/Piyush.jpg', // place the image in /public/images/
+    image: '/images/PIYUSH KUMAR.jpg', // place the image in /public/images/
   },
 {
     id: 8,
@@ -75,7 +75,7 @@ function page() {
     year: '4th Year',
     position: 'Event Coordinator',
     email: 'manabm.dd22.ee@nitp.ac.in',
-    image: '/images/manab.jpg', // place the image in /public/images/
+    image: '/images/MANAV MONDAL.jpg', // place the image in /public/images/
   },
 {
     id: 9,
@@ -84,7 +84,7 @@ function page() {
     year: '4th Year',
     position: 'Media Coordinator',
     email: 'hiteshp.dd22.cs@nitp.ac.in',
-    image: '/images/hitesh.jpg', // place the image in /public/images/
+    image: '/images/HITESH.png', // place the image in /public/images/
   },
 {
     id: 10,
@@ -93,7 +93,7 @@ function page() {
     year: '1st Year',
     position: 'Media Coordinator',
     email: 'anantam@example.com',
-    image: '/images/vaishnavi.jpg', // place the image in /public/images/
+    image: '/images/VAISHNAVI.png', // place the image in /public/images/
   },
 {
     id: 11,
@@ -102,7 +102,7 @@ function page() {
     year: '4th Year',
     position: 'Outreach Coordinator',
     email: 'yuvraj.ug22.cs@nitp.ac.in',
-    image: '/images/yuvraj.jpg', // place the image in /public/images/
+    image: '/images/YUVRAJ.jpg', // place the image in /public/images/
   },
 {
     id: 12,
@@ -111,7 +111,7 @@ function page() {
     year: '4th Year',
     position: 'Logistics Coordinator',
     email: 'harshitr.ug22.me@nitp.ac.in',
-    image: '/images/harshit.jpg', // place the image in /public/images/
+    image: '/images/HARSHIT RAJ.jpg', // place the image in /public/images/
   },
 {
     id: 13,
@@ -120,7 +120,7 @@ function page() {
     year: '1st Year',
     position: 'Logistics Coordinator',
     email: 'anantam@example.com',
-    image: '/images/vikash.jpg', // place the image in /public/images/
+    image: '/images/VIKASH.jpg', // place the image in /public/images/
   },
 {
     id: 14,
@@ -129,7 +129,7 @@ function page() {
     year: '4th Year',
     position: 'Senior Member',
     email: 'adityak.ug22.ec@nitp.ac.in',
-    image: '/images/aditya.jpg', // place the image in /public/images/
+    image: '/images/aditya.jpeg', // place the image in /public/images/
   },
 {
     id: 15,
@@ -138,7 +138,7 @@ function page() {
     year: '4th Year',
     position: 'Senior Member',
     email: 'garimak.ug22.me@nitp.ac.in',
-    image: '/images/garima.jpg', // place the image in /public/images/
+    image: '/images/garima.png', // place the image in /public/images/
   },
 ]
 
@@ -180,4 +180,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
