@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import TeamCard from '@/components/TeamCard'
 
 function page() {
+  
   const teamMembers = [
   {
      id: 1,

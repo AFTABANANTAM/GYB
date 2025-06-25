@@ -33,10 +33,11 @@ function page() {
     // 3. Add to array
     return {
       title: folder.replace(/[-_]/g, ' ').toUpperCase(),
-      folder,
+      folder : folder,
       description,
       image: imagePath,
       open : false,
+
     };
   });
   

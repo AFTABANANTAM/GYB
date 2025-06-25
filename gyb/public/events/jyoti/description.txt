@@ -1,0 +1,40 @@
+<div class="w-full bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-0 md:px-0 py-8 md:py-12 rounded-none shadow-none my-0">
+  <h1 class="text-4xl md:text-6xl font-extrabold text-center text-yellow-700 mb-8 drop-shadow-lg tracking-tight">
+    A Festival of Light, Love, and Hope ✨
+  </h1>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-6 leading-relaxed text-center">
+    <span class="font-bold text-yellow-800">Jyoti</span> is a heartwarming initiative by the <span class="font-bold text-yellow-800">GYB Club, NIT Patna</span>, celebrated every Diwali to spread the true essence of the festival of lights among underprivileged and orphaned children.
+  </p>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed text-center">
+    During this radiant event, our team visits a local orphanage, filling the space with laughter, warmth, and togetherness. We light diyas, share sweets, play joyful games, and create cherished memories with the children. Beyond celebration, we also donate essential items like <span class="font-semibold text-yellow-700">sanitary napkins, mosquito nets, blankets, and study materials</span> to support their daily needs.
+  </p>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed text-center">
+    What makes <span class="italic text-yellow-900">Jyoti</span> truly special is the love and care that ensures every child feels valued and celebrated. Instead of evoking pity, our volunteers focus on bringing genuine happiness, bright smiles, and a sense of belonging—making sure no child feels alone during the festival.
+  </p>
+
+  <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg md:text-xl text-gray-700 mb-4 px-4 md:px-24">
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🪔</span>
+      <span><span class="font-semibold text-yellow-800">Lighting Diyas</span> – Illuminating lives with hope and positivity.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🍬</span>
+      <span><span class="font-semibold text-yellow-800">Sharing Sweets & Gifts</span> – Spreading sweetness and joy with every smile.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🎲</span>
+      <span><span class="font-semibold text-yellow-800">Fun & Games</span> – Creating moments of laughter and unforgettable memories.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🤗</span>
+      <span><span class="font-semibold text-yellow-800">Heartfelt Giving</span> – Supporting children with essentials and, above all, love.</span>
+    </li>
+  </ul>
+
+  <p class="text-xl md:text-2xl text-yellow-800 font-semibold text-center mt-8">
+    Jyoti is not just an event—it's a feeling, a glowing light of compassion that brightens lives and makes every Diwali truly meaningful.
+  </p>
+</div>

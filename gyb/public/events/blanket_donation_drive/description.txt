@@ -1,0 +1,40 @@
+<div class="w-full bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-0 md:px-0 py-8 md:py-12 rounded-none shadow-none my-0">
+  <h1 class="text-4xl md:text-6xl font-extrabold text-center text-yellow-700 mb-8 drop-shadow-lg tracking-tight">
+    Spreading Warmth, One Blanket at a Time 🧣
+  </h1>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-6 leading-relaxed text-center">
+    As winter’s chill sets in, while many of us find comfort beneath cozy blankets, countless others face the biting cold with little to shield them. Recognizing this reality, the <span class="font-bold text-yellow-800">GYB Club, NIT Patna</span> launches its compassionate <span class="font-semibold text-yellow-700">Blanket Donation Drive</span> every year.
+  </p>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed text-center">
+    Through this heartfelt initiative, our club reaches out to underprivileged and homeless communities, distributing blankets to those who need them most. It’s not just about providing warmth from the outside, but also about sharing care, compassion, and humanity from the inside.
+  </p>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed text-center">
+    Each blanket handed out is more than just fabric—it’s a gesture of hope, a symbol of support, and a reminder that no one is forgotten.
+  </p>
+
+  <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg md:text-xl text-gray-700 mb-4 px-4 md:px-24">
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🛏️</span>
+      <span><span class="font-semibold text-yellow-800">Blanket Distribution</span> – Bringing warmth and comfort to those in need.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🤝</span>
+      <span><span class="font-semibold text-yellow-800">Community Outreach</span> – Connecting with the homeless and underprivileged with empathy and respect.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">💛</span>
+      <span><span class="font-semibold text-yellow-800">Acts of Kindness</span> – Every blanket is a message of hope and solidarity.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🌟</span>
+      <span><span class="font-semibold text-yellow-800">Student Initiative</span> – Students unite to make winters a little kinder for all.</span>
+    </li>
+  </ul>
+
+  <p class="text-xl md:text-2xl text-yellow-800 font-semibold text-center mt-8">
+    Because sometimes, the smallest act of kindness can bring the greatest warmth.
+  </p>
+</div>

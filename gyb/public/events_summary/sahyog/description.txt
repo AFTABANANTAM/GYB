@@ -1,19 +1,19 @@
-<div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md mt-8">
-  <h1 class="text-3xl font-bold text-pink-600 mb-4">A Celebration of Togetherness and Joy</h1>
+<div class="max-w-4xl mx-auto p-4 bg-white rounded-lg shadow-md mt-4">
+  <h1 class="text-2xl font-bold text-pink-600 mb-2">A Celebration of Togetherness and Joy</h1>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     <strong class="text-pink-700">Sahyog</strong> is a heartfelt initiative by the
     <strong>GYB Club, NIT Patna</strong>, where we come together to spread colors of happiness beyond boundaries.
   </p>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     Every year during Holi, we celebrate this vibrant festival not just with colors, but with compassion. We invite
     underprivileged and orphan children to join us in a day filled with fun, laughter, and love. Whether it’s a
     trampoline park, a waterpark, or a garden filled with joy – we take them to a place where they can experience a
     carefree childhood moment.
   </p>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     <strong class="text-pink-700">Sahyog</strong> isn’t just an event – it’s a reminder that true celebration lies
     in sharing smiles. Come, be a part of this beautiful journey of giving and growing together.
   </p>

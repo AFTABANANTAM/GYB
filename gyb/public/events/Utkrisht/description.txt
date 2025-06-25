@@ -1,0 +1,36 @@
+<div class="w-full bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-0 md:px-0 py-8 md:py-12 rounded-none shadow-none my-0">
+  <h1 class="text-4xl md:text-6xl font-extrabold text-center text-yellow-700 mb-8 drop-shadow-lg tracking-tight">
+    A Night Full of Fun & Vibes! 🎉
+  </h1>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-6 leading-relaxed text-center">
+    <span class="font-bold text-yellow-800">Utkrisht</span> is an electrifying event organized by the <span class="font-bold text-yellow-800">GYB Club, NIT Patna</span>, where students come together for an unforgettable evening packed with excitement, laughter, and pure joy!
+  </p>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed text-center">
+    From thrilling rounds of <span class="font-semibold text-yellow-700">Bingo</span> to energetic <span class="font-semibold text-yellow-700">music</span>, captivating <span class="font-semibold text-yellow-700">drama</span>, and a variety of engaging <span class="font-semibold text-yellow-700">games</span>, Utkrisht is the perfect break from the college hustle. Whether you're competing for cool prizes, performing on stage, or simply vibing with friends, every moment is filled with fun and good vibes!
+  </p>
+
+  <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg md:text-xl text-gray-700 mb-4 px-4 md:px-24">
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🎲</span>
+      <span><span class="font-semibold text-yellow-800">Bingo & Games</span> – Play, compete, and win awesome prizes!</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🎶</span>
+      <span><span class="font-semibold text-yellow-800">Music & Performances</span> – Groove to live tunes and enjoy amazing acts.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🎭</span>
+      <span><span class="font-semibold text-yellow-800">Drama & Laughter</span> – Watch hilarious skits and let the good times roll.</span>
+    </li>
+    <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+      <span class="text-2xl">🤩</span>
+      <span><span class="font-semibold text-yellow-800">Unforgettable Memories</span> – Make friends, share laughs, and create stories to cherish.</span>
+    </li>
+  </ul>
+
+  <p class="text-xl md:text-2xl text-yellow-800 font-semibold text-center mt-8">
+    Come for the games, stay for the memories. Utkrisht is all about pure fun and unforgettable moments! 💥
+  </p>
+</div>

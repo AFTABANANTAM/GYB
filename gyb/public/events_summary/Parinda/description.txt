@@ -1,18 +1,18 @@
-<div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md mt-8">
-  <h1 class="text-3xl font-bold text-green-600 mb-4">A Flight Towards Compassion</h1>
+<div class="max-w-4xl mx-auto p-4 bg-white rounded-lg shadow-md mt-4">
+  <h1 class="text-2xl font-bold text-green-600 mb-2">A Flight Towards Compassion</h1>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     <strong class="text-green-700">Parinda</strong> is a thoughtful social initiative by
     <strong>GYB Club, NIT Patna</strong>, dedicated to the care and protection of our feathered friends.
   </p>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     In the scorching summer heat, when birds struggle to find food, water, and shelter,
     <strong class="text-green-700">Parinda</strong> steps in to offer them comfort. Through this event, we place
     water bowls, grains, and install eco-friendly nests and shelters on trees and rooftops around the campus and city parks.
   </p>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     It’s a small step towards a more compassionate world — where humans and nature coexist with care.
     By providing a little relief to birds, we not only support the ecosystem but also awaken a sense of responsibility within ourselves.
   </p>

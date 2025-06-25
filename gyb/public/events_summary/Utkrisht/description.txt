@@ -1,15 +1,15 @@
-<div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md mt-8">
-  <h1 class="text-3xl font-bold text-indigo-600 mb-4">
+<div class="max-w-4xl mx-auto p-4 bg-white rounded-lg shadow-md mt-4">
+  <h1 class="text-2xl font-bold text-indigo-600 mb-2">
     A Night Full of Fun & Vibes! 🎉
   </h1>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     Organized by <strong>GYB Club, NIT Patna</strong>,
     <strong class="text-indigo-700">Utkrisht</strong> is a super exciting fun event where
     students come together to enjoy a mix of <span class="font-semibold">Bingo, music, drama, games, and laughter!</span> 🎭🎶
   </p>
 
-  <p class="text-gray-800 mb-4">
+  <p class="text-gray-800 mb-2">
     From winning cool prizes to vibing with friends, it’s the perfect break from college hustle.
     Whether you're playing, performing, or just enjoying —
     <strong class="text-indigo-700">Utkrisht</strong> is all about
