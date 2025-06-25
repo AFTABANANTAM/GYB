@@ -10,7 +10,7 @@ const images = [
   "/images/img4.jpg"
 ];
 
-export default function page() {
+export default function PostPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function page() {
       <div className="max-w-4xl mx-auto p-6 space-y-6">
         <h2 className="text-3xl font-bold text-yellow-500">Welcome to EventX</h2>
         <p className="text-lg">
-          EventX is not just another college event – it's a vibrant celebration of creativity,
+          EventX is not just another college event – it&apos a vibrant celebration of creativity,
           talent, and community. Held annually, the event brings together passionate individuals
           from diverse backgrounds to share, perform, and engage in unforgettable moments.
         </p>
