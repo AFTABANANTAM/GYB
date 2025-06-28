@@ -34,6 +34,7 @@ export default function Navbar() {
           <Link href="/" className="hover:underline">Home</Link>
           <Link href="/events" className="hover:underline">Events</Link>
           <Link href="/members" className="hover:underline">Members</Link>
+          <Link href="/resources" className="hover:underline">Resources</Link>
         </div>
 
         {/* Donate Button */}
@@ -59,6 +60,7 @@ export default function Navbar() {
           <Link href="/" className="block" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/events" className="block" onClick={() => setMenuOpen(false)}>Events</Link>
           <Link href="/members" className="block" onClick={() => setMenuOpen(false)}>Members</Link>
+          <Link href="/resources" className="block" onClick={() => setMenuOpen(false)}>Resourcess</Link>
           <Link href="/donate" className="inline-block mt-2">
             <button className=" cursor-pointer w-full border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
               Donate Us
