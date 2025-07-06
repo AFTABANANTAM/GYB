@@ -32,7 +32,7 @@ export default function HeroSection() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
       >
-        <Link href="/donate-us">
+        <Link href="/donate">
           <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
             Join Us
           </button>
