@@ -1,35 +1,59 @@
+"use client"
 import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
+import { motion } from "framer-motion";
 
 export default function EventsCard({ events }) {
+  // Animation variants for card entrance
+  const cardVariants = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.7 } }
+  };
+
+  // Animation for image hover
+  const imageHover = {
+    scale: 1.04,
+    boxShadow: "0 8px 32px 0 rgba(255, 193, 7, 0.18)"
+  };
+
   return (
     <div className="flex flex-col gap-12 w-full">
       {events.map((event, idx) => {
         const gradient =
           idx % 2 === 1
-            ? "bg-gradient-to-bl from-yellow-50 via-white to-yellow-100" 
-            : "bg-gradient-to-br from-yellow-50 via-white to-yellow-100"; 
+            ? "bg-gradient-to-bl from-yellow-50 via-white to-yellow-100"
+            : "bg-gradient-to-br from-yellow-50 via-white to-yellow-100";
 
         return (
-          <div
+          <motion.div
             key={event.title}
             className={`flex flex-col md:flex-row ${
               idx % 2 === 1 ? "md:flex-row-reverse" : ""
             } w-full bg-white rounded-2xl overflow-hidden shadow-xl min-h-[350px]`}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            variants={cardVariants}
           >
-            {/* Image section */}
-            <div className="md:w-1/2 w-full h-[40vh] md:h-[60vh] relative">
-              <Image
-                src={event.image}
-                alt={event.title}
-                fill
-                className="object-cover"
-                sizes="(min-width: 768px) 50vw, 100vw"
-                priority={idx === 0}
-              />
-            </div>
-            {/* Text section with dynamic gradient */}
+            
+            <motion.div
+              className="md:w-1/2 w-full h-[40vh] md:h-[60vh] relative flex items-center justify-center bg-white"
+              whileHover={imageHover}
+              transition={{ type: "spring", stiffness: 200, damping: 18 }}
+            >
+              <div className="relative w-full h-full">
+                <Image
+                  src={event.image}
+                  alt={event.title}
+                  fill
+                  className="object-contain"
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  priority={idx === 0}
+                />
+              </div>
+            </motion.div>
+
             <div className={`md:w-1/2 w-full flex flex-col justify-center p-8 md:p-12 gap-4 ${gradient}`}>
               <h2 className="text-3xl md:text-4xl font-extrabold text-yellow-500 mb-2">{event.title}</h2>
               <div
@@ -55,7 +79,7 @@ export default function EventsCard({ events }) {
                 </div>
               )}
             </div>
-          </div>
+          </motion.div>
         );
       })}
     </div>
