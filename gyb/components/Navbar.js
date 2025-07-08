@@ -33,7 +33,21 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-10">
           <Link href="/" className="hover:underline">Home</Link>
           <Link href="/events" className="hover:underline">Events</Link>
-          <Link href="/members" className="hover:underline">Members</Link>
+          {/* Members Dropdown */}
+          <div className="relative group">
+            <span className="hover:underline cursor-pointer select-none">Members</span>
+            <div
+              className="absolute left-0 mt-2 w-48 bg-white rounded shadow-lg
+                opacity-0 group-hover:opacity-100 group-focus-within:opacity-100
+                pointer-events-none group-hover:pointer-events-auto group-focus-within:pointer-events-auto
+                transition-all duration-200 delay-200 z-50"
+              tabIndex={-1}
+            >
+              <Link href="/members/alumni" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Alumni</Link>
+              <Link href="/members/flagbearers" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Flagbearers</Link>
+              <Link href="/members/batch-24" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Batch 24</Link>
+            </div>
+          </div>
           <Link href="/resources" className="hover:underline">Resources</Link>
         </div>
 
@@ -59,8 +73,14 @@ export default function Navbar() {
         <div className="md:hidden px-4 pb-4 space-y-2 text-sm">
           <Link href="/" className="block" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/events" className="block" onClick={() => setMenuOpen(false)}>Events</Link>
-          <Link href="/members" className="block" onClick={() => setMenuOpen(false)}>Members</Link>
-          <Link href="/resources" className="block" onClick={() => setMenuOpen(false)}>Resourcess</Link>
+          {/* Members Dropdown for mobile */}
+          <div>
+            <span className="block font-semibold mt-2 mb-1">Members</span>
+            <Link href="/members/alumni" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Alumni</Link>
+            <Link href="/members/flagbearers" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Flagbearers</Link>
+            <Link href="/members/batch-24" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Batch 24</Link>
+          </div>
+          <Link href="/resources" className="block" onClick={() => setMenuOpen(false)}>Resources</Link>
           <Link href="/donate" className="inline-block mt-2">
             <button className=" cursor-pointer w-full border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
               Donate Us

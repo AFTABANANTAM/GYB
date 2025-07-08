@@ -2,11 +2,14 @@
 import React, { useState } from 'react'
 import TeamCard from '@/components/TeamCard'
 
-function Page() {
+function Page({params}) {
+    const filter = params.slug;
+    console.log(filter);
   const teamMembers = [
   {
      id: 1,
     name: 'Shiv Ranjan Kumar',
+    filter : 'flagbearers',
     branch: 'Civil Engineering',
     year: '4th Year',
     position: 'President',
@@ -16,6 +19,7 @@ function Page() {
 {
    id: 2,
     name: 'Ronak Dass',
+    filter : 'flagbearers',
     branch: 'Computer Science and Engineering',
     year: '4th Year',
     position: 'Vice President',
@@ -25,6 +29,7 @@ function Page() {
 {
     id: 3,
     name: 'Harshdeep',
+    filter : 'flagbearers',
     branch: 'Civil Engineering',
     year: '4th Year',
     position: 'Treasurer',
@@ -34,6 +39,7 @@ function Page() {
 {
     id: 4,
     name: 'Preety Rani',
+    filter : 'flagbearers',
     branch: 'Electrical Engineering',
     year: '4th Year',
     position: 'Secretary',
@@ -43,6 +49,7 @@ function Page() {
 {
     id: 5,
     name: 'Anusha Tank',
+    filter : 'flagbearers',
     branch: 'Civil Engineering',
     year: '4th Year',
     position: 'PR-Coordinator',
@@ -52,6 +59,7 @@ function Page() {
 {
     id: 6,
     name: 'Sameer Gupta',
+    filter : 'flagbearers',
     branch: 'Electronics and Communication Engineering',
     year: '4th Year',
     position: ' Technical Coordinator',
@@ -62,6 +70,7 @@ function Page() {
 {
     id: 7,
     name: 'Piyush Kumar',
+    filter : 'flagbearers',
     branch: 'Electrical Engineering',
     year: '4th Year',
     position: 'Event Coordinator',
@@ -71,6 +80,7 @@ function Page() {
 {
     id: 8,
     name: 'Manab Mondal',
+    filter : 'flagbearers',
     branch: 'Electrical Engineering',
     year: '4th Year',
     position: 'Event Coordinator',
@@ -80,6 +90,7 @@ function Page() {
 {
     id: 9,
     name: 'Hitesh Parmar',
+    filter : 'flagbearers',
     branch: 'Computer Science and Engineering',
     year: '4th Year',
     position: 'Media Coordinator',
@@ -89,6 +100,7 @@ function Page() {
 {
     id: 10,
     name: 'Vaishnavi',
+    filter : 'flagbearers',
     branch: 'CSE',
     year: '1st Year',
     position: 'Media Coordinator',
@@ -98,6 +110,7 @@ function Page() {
 {
     id: 11,
     name: 'Yuvraj',
+    filter : 'flagbearers',
     branch: 'Computer Science and Engineering',
     year: '4th Year',
     position: 'Outreach Coordinator',
@@ -107,6 +120,7 @@ function Page() {
 {
     id: 12,
     name: 'Harshit Raj',
+    filter : 'flagbearers',
     branch: 'Mechanical Engineering',
     year: '4th Year',
     position: 'Logistics Coordinator',
@@ -116,6 +130,7 @@ function Page() {
 {
     id: 13,
     name: 'Vikash',
+    filter : 'flagbearers',
     branch: 'Computer Science and Engineering',
     year: '1st Year',
     position: 'Logistics Coordinator',
@@ -125,6 +140,7 @@ function Page() {
 {
     id: 14,
     name: 'Aditya Kumar',
+    filter : 'flagbearers',
     branch: 'Electronics and Communication Engineering',
     year: '4th Year',
     position: 'Senior Member',
@@ -134,6 +150,7 @@ function Page() {
 {
     id: 15,
     name: 'Garima Kushwaha',
+    filter : 'flagbearers',
     branch: 'Mechanical Engineering',
     year: '4th Year',
     position: 'Senior Member',
@@ -142,42 +159,17 @@ function Page() {
   },
 ]
 
-  // Get unique positions for filter options
-  const positions = ["All", ...Array.from(new Set(teamMembers.map(m => m.position)))];
-  const [selectedPosition, setSelectedPosition] = useState("All");
+    // Only show members matching the filter from the URL
+    const filteredMembers = teamMembers.filter(m => m.filter === filter);
 
-  const filteredMembers =
-    selectedPosition === "All"
-      ? teamMembers
-      : teamMembers.filter(m => m.position === selectedPosition);
-
-  return (
-    <div>
-      <h1 className="mt-2 text-4xl my-4 text-center fraunces text-yellow-400 drop-shadow">
-        Meet the Cool Crew
-      </h1>
-      {/* Simple Filter Dropdown */}
-      <div className="flex justify-center mb-8">
-        <label
-          htmlFor="position-filter"
-          className="mr-3 text-lg font-medium text-gray-800"
-        >
-          Filter by Team and Positions :
-        </label>
-        <select
-          id="position-filter"
-          className="border border-yellow-400 rounded px-4 py-2 text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-300 transition"
-          value={selectedPosition}
-          onChange={e => setSelectedPosition(e.target.value)}
-        >
-          {positions.map(pos => (
-            <option key={pos} value={pos}>{pos}</option>
-          ))}
-        </select>
-      </div>
-      <TeamCard  members={filteredMembers} />
-    </div>
-  )
+    return (
+        <div>
+            <h1 className="mt-2 text-4xl my-4 text-center fraunces text-yellow-400 drop-shadow">
+                Meet the Cool Crew
+            </h1>
+            <TeamCard members={filteredMembers} />
+        </div>
+    )
 }
 
 export default Page
