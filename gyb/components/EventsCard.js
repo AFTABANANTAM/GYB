@@ -28,7 +28,7 @@ export default function EventsCard({ events }) {
         return (
           <motion.div
             key={event.title}
-            className={`flex flex-col md:flex-row ${
+            className={`flex flex-col md:flex-row items-stretchstretch ${
               idx % 2 === 1 ? "md:flex-row-reverse" : ""
             } w-full bg-white rounded-2xl overflow-hidden shadow-xl min-h-[350px]`}
             initial="hidden"
@@ -38,18 +38,18 @@ export default function EventsCard({ events }) {
           >
             
             <motion.div
-              className="md:w-1/2 w-full h-[40vh] md:h-[60vh] relative flex items-center justify-center bg-white"
+              className="md:w-1/2 w-full flex items-stretch "
               whileHover={imageHover}
               transition={{ type: "spring", stiffness: 200, damping: 18 }}
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full">
                 <Image
                   src={event.image}
-                  alt={event.title}
-                  fill
-                  className="object-contain"
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                  priority={idx === 0}
+  alt={event.title}
+  width={1000}
+  height={1000}
+  className="object-cover w-full h-full"
+  priority={idx === 0}
                 />
               </div>
             </motion.div>
