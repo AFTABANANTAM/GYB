@@ -8,12 +8,12 @@ export default function EventsCard({ events }) {
   // Animation variants for card entrance
   const cardVariants = {
     hidden: { opacity: 0, y: 40 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.7 } }
+    visible: { opacity: 1, y: 0, transition: { duration: 1.0 } }
   };
 
   // Animation for image hover
   const imageHover = {
-    scale: 1.04,
+    scale: 0.8,
     boxShadow: "0 8px 32px 0 rgba(255, 193, 7, 0.18)"
   };
 
@@ -45,11 +45,11 @@ export default function EventsCard({ events }) {
               <div className="relative w-full">
                 <Image
                   src={event.image}
-  alt={event.title}
-  width={1000}
-  height={1000}
-  className="object-cover w-full h-full"
-  priority={idx === 0}
+                  alt={event.title}
+                  width={1000}
+                  height={1000}
+                  className="object-cover w-full h-full"
+                  priority={idx === 0}
                 />
               </div>
             </motion.div>
