@@ -3,9 +3,11 @@
 import { useState } from 'react';
 
 const branches = {
+  arch:'Architecture',
   cse: 'Computer Science & Engineering',
   ece: 'Electronics & Communication Engineering',
   me: 'Mechanical Engineering',
+  ee: 'Electrical Engineering',
   mnc: 'Mathematics & Computing',
   ce: 'Civil Engineering',
   chemtech: 'Chemical Technology',
@@ -24,10 +26,8 @@ const semesterOptions = [
 
 const paperStructure = {
   sem1: [
-    { batch: '22-26', type: 'midsem', file: 'midsem.pdf' },
-    { batch: '22-26', type: 'endsem', file: 'endsem.pdf' },
-    { batch: '23-27', type: 'midsem', file: 'midsem.pdf' },
-    { batch: '23-27', type: 'endsem', file: 'endsem.pdf' },
+    { batch: '21-25', type: 'midsem', file: 'midsem.pdf' },
+    { batch: '21-25', type: 'endsem', file: 'endsem.pdf' },
     { batch: '24-28', type: 'midsem', file: 'midsem.pdf' },
     { batch: '24-28', type: 'endsem', file: 'endsem.pdf' },
   ],
@@ -39,7 +39,7 @@ const paperStructure = {
     { batch: '24-28', type: 'midsem', file: 'midsem.pdf' },
     { batch: '24-28', type: 'endsem', file: 'endsem.pdf' },
   ],
-  sem3: [
+  sem4: [
     { batch: '22-26', type: 'midsem', file: 'midsem.pdf' },
     { batch: '22-26', type: 'endsem', file: 'endsem.pdf' },
     { batch: '23-27', type: 'midsem', file: 'midsem.pdf' },
