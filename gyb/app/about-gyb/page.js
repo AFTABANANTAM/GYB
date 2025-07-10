@@ -59,7 +59,7 @@ export default function AboutGYBPage() {
             <h2 className="text-2xl font-bold mb-2">Dr. SHIV SHANKAR KUMAR</h2>
             <h3 className="text-md font-medium text-gray-700 mb-2">Meet our Professor In-Charge</h3>
             <p className="text-gray-600">
-              Dr. Shiv Shankar Kumar, a dedicated educator from NIT Patna, serves as the guiding force behind GYB Club's mission. With a passion for community empowerment, Dr. Kumar leads the club in celebrating festivals with underprivileged children, organizing book collection drives, and hosting inclusive fun events. His strategic leadership, mentorship, and commitment to social impact drive the club's efforts to create positive change and brighter futures for all.</p>
+              Dr. Shiv Shankar Kumar, a dedicated educator from NIT Patna, serves as the guiding force behind GYB Club's mission. With a passion for community empowerment, Dr. Kumar leads the club in celebrating festivals with underprivileged children, organizing book collection drives, and hosting inclusive fun events. His strategic leadership, mentorship, and commitment to social impact drive the club&apos;s efforts to create positive change and brighter futures for all.</p>
           </div>
         </div>
       </motion.section>
@@ -84,7 +84,7 @@ export default function AboutGYBPage() {
             <h3 className="text-md font-medium text-[#794d2b] mb-2">Founder, Get Your Book</h3>
             <p className="text-[#4b3c2d]">
               Founded in 2017 with a strong belief in the transformative power of books,
-              [Name]'s leadership laid the foundation for what GYB is today — a bridge of opportunity and inspiration.
+              founder&apos;s leadership laid the foundation for what GYB is today. 
             </p>
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function AboutGYBPage() {
             <h3 className="text-md font-medium text-[#794d2b] mb-2">President, Get Your Book</h3>
             <p className="text-[#4b3c2d]">
               Founded in 2017 with a strong belief in the transformative power of books,
-              [Name]'s leadership laid the foundation for what GYB is today — a bridge of opportunity and inspiration.
+              our president leadership bring GYB to a different level — a bridge of opportunity and inspiration.
             </p>
           </div>
         </div>
