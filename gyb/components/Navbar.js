@@ -26,7 +26,7 @@ export default function Navbar() {
                 <path fill="#D6D6D6" d="m1779 1066 2 1-31 31-2-1 1.723-1.687c3.668-3.626 7.275-7.234 10.59-11.188 3.965-4.637 8.485-8.637 13.015-12.707 1.95-1.764 3.843-3.532 5.672-5.418" data-color="7"></path>
               </g>
             </svg>
-          <span className="text-xl font-medium">Get Your Book</span>
+          {/* <span className="text-xl font-medium"></span> */}
         </div>
 
         {/* Desktop Menu */}

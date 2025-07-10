@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-
+import Link from 'next/link';
 export default function ImpactfulProjects() {
 const projects = [
     {
@@ -40,9 +40,12 @@ const projects = [
           </div>
         ))}
       </div>
-      <button className="mt-6 px-4 py-2 bg-[#6a1b1a] text-white text-sm rounded-full hover:bg-[#8b2c2b] transition">
-        Get Involved As A Volunteer
-      </button>
+      <Link
+  href="/join-us"
+  className="inline-block mt-6 px-4 py-2 bg-[#6a1b1a] text-white text-sm rounded-full hover:bg-[#8b2c2b] transition cursor-pointer text-center"
+>
+  Get Involved As A Volunteer
+</Link>
     </div>
   );
 }

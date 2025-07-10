@@ -23,10 +23,11 @@ export default function InspiringStory() {
           <p className="text-sm text-gray-700 max-w-lg">
             At GYB, we believe every book has the power to transform lives...
           </p>
-          <Link href="/about-gyb">
-  <button className="bg-[#622932] text-white py-2 px-6 rounded-full hover:bg-[#411c21] transition">
-    Discover More
-  </button>
+          <Link
+  href="/about-gyb"
+  className="bg-[#622932] text-white py-2 px-6 rounded-full hover:bg-[#411c21] transition cursor-pointer inline-block"
+>
+  Discover More
 </Link>
         </div>
       </motion.div>

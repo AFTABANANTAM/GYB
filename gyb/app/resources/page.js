@@ -28,6 +28,8 @@ const paperStructure = {
   sem1: [
     { batch: '21-25', type: 'midsem', file: 'midsem.pdf' },
     { batch: '21-25', type: 'endsem', file: 'endsem.pdf' },
+    { batch: '23-27', type: 'midsem', file: 'midsem.pdf' },
+    { batch: '23-27', type: 'endsem', file: 'endsem.pdf' },
     { batch: '24-28', type: 'midsem', file: 'midsem.pdf' },
     { batch: '24-28', type: 'endsem', file: 'endsem.pdf' },
   ],
@@ -44,19 +46,11 @@ const paperStructure = {
     { batch: '22-26', type: 'endsem', file: 'endsem.pdf' },
     { batch: '23-27', type: 'midsem', file: 'midsem.pdf' },
     { batch: '23-27', type: 'endsem', file: 'endsem.pdf' },
-    { batch: '24-28', type: 'midsem', file: 'midsem.pdf' },
-    { batch: '24-28', type: 'endsem', file: 'endsem.pdf' },
-
   ],
 
   sem6: [
     { batch: '22-26', type: 'midsem', file: 'midsem.pdf' },
     { batch: '22-26', type: 'endsem', file: 'endsem.pdf' },
-    { batch: '23-27', type: 'midsem', file: 'midsem.pdf' },
-    { batch: '23-27', type: 'endsem', file: 'endsem.pdf' },
-    { batch: '24-28', type: 'midsem', file: 'midsem.pdf' },
-    { batch: '24-28', type: 'endsem', file: 'endsem.pdf' },
-
   ],
   // Add more semesters as needed
 };

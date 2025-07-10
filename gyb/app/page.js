@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <>
       <main className="bg-white text-black min-h-screen font-sans p-0 m-0">
-        <header className="bg-yellow-400 text-black py-8 px-4 text-center">
+        {/* <header className="bg-yellow-400 text-black py-8 px-4 text-center">
 
           <div className="flex justify-center items-center gap-10 mb-4 ">
             <h1 className="m-0 text-4xl font-bold">Get Your book Now</h1>
@@ -63,7 +63,7 @@ export default function Home() {
             </svg>
           </div>
           <p className="m-0 font-bold">Spreading Joy Through Books</p>
-        </header>
+        </header> */}
          <Hero/>
          <EventSection/>
         <About/>
