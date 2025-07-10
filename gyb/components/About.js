@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function InspiringStory() {
   return (
@@ -22,9 +23,11 @@ export default function InspiringStory() {
           <p className="text-sm text-gray-700 max-w-lg">
             At GYB, we believe every book has the power to transform lives...
           </p>
-          <button className="bg-[#752e2e] text-white rounded-full px-6 py-2 text-sm hover:bg-[#5f2323] transition">
-            Discover More
-          </button>
+          <Link href="/about-gyb">
+  <button className="bg-[#622932] text-white py-2 px-6 rounded-full hover:bg-[#411c21] transition">
+    Discover More
+  </button>
+</Link>
         </div>
       </motion.div>
     </div>

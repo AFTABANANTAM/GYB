@@ -1,6 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import EventsCard from "@/components/EventsCard";
+import EventSection from "@/components/EventSection";
+import Impact from "@/components/Impact";
 import fs from 'fs';
 import Hero from '@/components/Hero';
 import About from "@/components/About"
@@ -63,12 +65,9 @@ export default function Home() {
           <p className="m-0 font-bold">Spreading Joy Through Books</p>
         </header>
          <Hero/>
-        <section>
-          <h1 className="mt-2 text-4xl my-4 text-center fraunces">Upcomming events</h1>
-          <EventsCard events={events}/>
-        </section>
-    
+         <EventSection/>
         <About/>
+        <Impact/>
       </main>
 
     </>

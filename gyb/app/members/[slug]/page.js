@@ -389,7 +389,7 @@ function Page({params}) {
 },
 {
   id: 39,
-  name: 'Anantam Aftab Tiwari',
+  name: 'Anantam Aftab',
   filter: 'batch-24',
   branch: 'Computer Science Engineering',
   position: 'Member',
