@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 function page() {
   return (
      <div className="bg-white text-gray-800 min-h-screen font-sans">
@@ -35,12 +35,12 @@ function page() {
               placeholder="Donation Amount (₹)"
               className="w-full px-4 py-3 rounded-md border border-gray-300 focus:ring-yellow-400 focus:outline-none"
             />
-            <button
-              type="submit"
-              className="w-full bg-yellow-300 hover:bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md transition duration-200"
-            >
-              Donate Now
-            </button>
+            <Link
+  href="/contribute"
+  className="block w-full text-center bg-yellow-300 hover:bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md transition duration-200 cursor-pointer"
+>
+  Donate Now
+</Link>
           </form>
         </div>
       </section>
@@ -75,9 +75,13 @@ function page() {
         <p className="text-gray-700 mb-6">
           Help us keep the stories flowing to the ones who need them most.
         </p>
-        <button className="bg-yellow-300 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-md shadow-md transition">
-          Contribute Now
-        </button>
+        <Link
+  href="/contribute"
+  className="inline-block bg-yellow-300 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-md shadow-md transition cursor-pointer text-center"
+>
+  Contribute Now
+</Link>
+
       </section>
     </div>
   );

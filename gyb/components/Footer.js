@@ -25,7 +25,7 @@ export default function Footer() {
             <a href="#" className="block hover:underline">Terms & Conditions</a>
             <a href="#" className="block hover:underline">Refund Policy</a>
             <p className="mt-6 text-s">©2025 by GYB CLUB.</p>
-            <p className="text-md mt-2">Developed by <span className='underline font-bold'>Ayush</span> and <span className='underline font-bold'>Anantam</span></p>
+            <p className="text-lg mt-2">Developed by <span className='underline font-bold'>Ayush</span> and <span className='underline font-bold'>Anantam</span></p>
           </div>
         </div>
       </div>
