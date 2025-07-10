@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 function TeamCard({ members }) {
     const cardVariants = {
@@ -21,11 +22,13 @@ function TeamCard({ members }) {
                     whileHover={{ scale: 1.07, boxShadow: "0 8px 32px 0 rgba(255, 193, 7, 0.25)" }}
                 >
                     <div className="flex justify-center mb-4">
-                        <img
-                            src={member.image}
-                            alt={member.name}
-                            className="w-24 h-24 rounded-full border-4 border-white object-cover shadow-md"
-                        />
+                        <Image
+  src={member.image}
+  alt={member.name}
+  width={96} 
+  height={96} 
+  className="rounded-full border-4 border-white object-cover shadow-md"
+/>
                     </div>
                     <h2 className="text-xl font-bold text-black my-2">{member.name}</h2>
                     <p className="text-sm text-black/80 my-4">{member.branch}</p>

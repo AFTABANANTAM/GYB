@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function AboutGYBPage() {
   return (
@@ -29,7 +30,7 @@ export default function AboutGYBPage() {
 
   Our club operates with a simple yet powerful vision: to bridge the gap between potential and opportunity. We collect gently used
   or new books from donors and redirect them to students who need them the most—whether in rural schools, orphanages, or shelters.
-  But our work doesn't stop at books. Through regular volunteering, community outreach, and partnerships with NGOs and academic leaders,
+  But our work doesn&apos;t stop at books. Through regular volunteering, community outreach, and partnerships with NGOs and academic leaders,
   we aim to foster a culture of empathy, literacy, and social responsibility among students at NIT Patna and beyond.
 
   <br /><br />
@@ -47,11 +48,13 @@ export default function AboutGYBPage() {
         transition={{ duration: 1.2 }}
       >
         <div className="max-w-3xl bg-white rounded-xl shadow-2xl p-8 flex flex-col md:flex-row items-center gap-8">
-          <img
-            src="/images/PI.jpg"
-            alt="Professor In-Charge"
-            className="w-40 h-40 rounded-full object-cover border-4 border-[#2d1d15] shadow-md"
-          />
+          <Image
+  src="/images/PI.jpg"
+  alt="Professor In-Charge"
+  width={160}
+  height={160}
+  className="w-40 h-40 rounded-full object-cover border-4 border-[#2d1d15] shadow-md"
+/>
           <div>
             <h2 className="text-2xl font-bold mb-2">Dr. SHIV SHANKAR KUMAR</h2>
             <h3 className="text-md font-medium text-gray-700 mb-2">Meet our Professor In-Charge</h3>
@@ -69,11 +72,13 @@ export default function AboutGYBPage() {
         transition={{ duration: 1.4 }}
       >
         <div className="max-w-3xl bg-[#fff9f3] border-2 border-[#ecc8a0] rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 shadow-xl hover:shadow-2xl transition">
-          <img
-            src="/images/founder.jpg"
-            alt="Club Founder"
-            className="w-40 h-40 rounded-full object-cover border-4 border-[#ecc8a0] shadow-lg"
-          />
+         <Image
+  src="/images/founder.jpg"
+  alt="Club Founder"
+  width={160}
+  height={160}
+  className="rounded-full object-cover border-4 border-[#ecc8a0] shadow-lg"
+/>
           <div>
             <h2 className="text-2xl font-bold text-[#2d1d15] mb-2">[Founder Name]</h2>
             <h3 className="text-md font-medium text-[#794d2b] mb-2">Founder, Get Your Book</h3>
@@ -94,11 +99,14 @@ export default function AboutGYBPage() {
         transition={{ duration: 1.4 }}
       >
         <div className="max-w-3xl bg-[#fff9f3] border-2 border-[#ecc8a0] rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 shadow-xl hover:shadow-2xl transition">
-          <img
-            src="/images/SHIV.jpg"
-            alt="Club President"
-            className="w-40 h-40 rounded-full object-cover border-4 border-[#ecc8a0] shadow-lg"
-          />
+          <Image
+  src="/images/SHIV.jpg"
+  alt="Club President"
+  width={160} // corresponds to w-40
+  height={160} // corresponds to h-40
+  className="rounded-full object-cover border-4 border-[#ecc8a0] shadow-lg"
+/>
+
           <div>
             <h2 className="text-2xl font-bold text-[#2d1d15] mb-2">[SHIV RANJAN]</h2>
             <h3 className="text-md font-medium text-[#794d2b] mb-2">President, Get Your Book</h3>
