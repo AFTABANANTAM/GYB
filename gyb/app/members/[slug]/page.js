@@ -405,7 +405,7 @@ function Page({params}) {
   position: 'Member',
   year: '2ⁿᵈ year',
   email: '',
-  image: '/images/Ayush.jpeg',
+  image: '/images/Ayush.jpg',
 },
 {
   id: 41,
