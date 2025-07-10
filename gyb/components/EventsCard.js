@@ -25,16 +25,24 @@ export default function EventsCard({ events }) {
             ? "bg-gradient-to-bl from-yellow-50 via-white to-yellow-100"
             : "bg-gradient-to-br from-yellow-50 via-white to-yellow-100";
 
+        // Animation props: first event animates immediately, others animate on scroll
+        const motionProps =
+          idx === 0
+            ? { initial: "hidden", animate: "visible", variants: cardVariants }
+            : {
+                initial: "hidden",
+                whileInView: "visible",
+                viewport: { once: false, amount: 0.2 },
+                variants: cardVariants,
+              };
+
         return (
           <motion.div
             key={event.title}
             className={`flex flex-col md:flex-row items-stretchstretch ${
               idx % 2 === 1 ? "md:flex-row-reverse" : ""
             } w-full bg-white rounded-2xl overflow-hidden shadow-xl min-h-[350px]`}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: false, amount: 0.2 }}
-            variants={cardVariants}
+            {...motionProps}
           >
             
             <motion.div

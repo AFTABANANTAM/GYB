@@ -8,39 +8,39 @@ import Hero from '@/components/Hero';
 import About from "@/components/About"
 import path from 'path';
 export default function Home() {
-  const eventsDir = path.join(process.cwd(), 'public', 'upcoming_events');
-  // console.log('dir : ' ,eventsDir);
-  const eventFolders = fs.readdirSync(eventsDir).filter(folder =>
-    fs.statSync(path.join(eventsDir, folder)).isDirectory()
-  );
-  // console.log('folders ' , eventFolders);
+  // const eventsDir = path.join(process.cwd(), 'public', 'upcoming_events');
+  // // console.log('dir : ' ,eventsDir);
+  // const eventFolders = fs.readdirSync(eventsDir).filter(folder =>
+  //   fs.statSync(path.join(eventsDir, folder)).isDirectory()
+  // );
+  // // console.log('folders ' , eventFolders);
 
-  const events = eventFolders.map(folder => {
-    const folderPath = path.join(eventsDir, folder);
+  // const events = eventFolders.map(folder => {
+  //   const folderPath = path.join(eventsDir, folder);
 
-    // 1. Description text
-    let description = '';
-    const descPath = path.join(folderPath, 'description.txt');
-    if (fs.existsSync(descPath)) {
-      description = fs.readFileSync(descPath, 'utf-8');
-    }
+  //   // 1. Description text
+  //   let description = '';
+  //   const descPath = path.join(folderPath, 'description.txt');
+  //   if (fs.existsSync(descPath)) {
+  //     description = fs.readFileSync(descPath, 'utf-8');
+  //   }
 
-    // 2. Find first image in the folder
-    const imageFile = fs.readdirSync(folderPath).find(file =>
-      file.match(/\.(png|jpg|jpeg|webp)$/i)
-    );
-    console.log('getted img : ' , imageFile);
-    const imagePath = imageFile ? `/upcoming_events/${folder}/${imageFile}` : null;
+  //   // 2. Find first image in the folder
+  //   const imageFile = fs.readdirSync(folderPath).find(file =>
+  //     file.match(/\.(png|jpg|jpeg|webp)$/i)
+  //   );
+  //   console.log('getted img : ' , imageFile);
+  //   const imagePath = imageFile ? `/upcoming_events/${folder}/${imageFile}` : null;
 
-    // 3. Add to array
-    return {
-      title: folder.replace(/[-_]/g, ' ').toUpperCase(),
-      folder,
-      description,
-      image: imagePath,
-      open : true,
-    };
-  });
+  //   // 3. Add to array
+  //   return {
+  //     title: folder.replace(/[-_]/g, ' ').toUpperCase(),
+  //     folder,
+  //     description,
+  //     image: imagePath,
+  //     open : true,
+  //   };
+  // });
   return (
     <>
       <main className="bg-white text-black min-h-screen font-sans p-0 m-0">

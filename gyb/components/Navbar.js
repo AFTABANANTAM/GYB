@@ -1,11 +1,13 @@
 // src/components/Navbar.js
 "use client";
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownTimeout = useRef(null);
 
   return (
     <nav className="bg-[#f8f3eb] text-[#2c1f16] font-serif text-base shadow-sm z-50">
@@ -34,14 +36,30 @@ export default function Navbar() {
           <Link href="/" className="hover:underline">Home</Link>
           <Link href="/events" className="hover:underline">Events</Link>
           {/* Members Dropdown */}
-          <div className="relative group">
+          <div className="relative group"
+            onMouseEnter={() => {
+              if (dropdownTimeout.current) clearTimeout(dropdownTimeout.current);
+              setDropdownOpen(true);
+            }}
+            onMouseLeave={() => {
+              dropdownTimeout.current = setTimeout(() => setDropdownOpen(false), 1000);
+            }}
+          >
             <span className="hover:underline cursor-pointer select-none">Members</span>
             <div
-              className="absolute left-0 mt-2 w-48 bg-white rounded shadow-lg
-                opacity-0 group-hover:opacity-100 group-focus-within:opacity-100
-                pointer-events-none group-hover:pointer-events-auto group-focus-within:pointer-events-auto
-                transition-all duration-200 delay-200 z-50"
+              className={`
+                absolute left-0 mt-2 w-48 bg-white rounded shadow-lg
+                transition-opacity duration-500 z-50
+                ${dropdownOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}
+              `}
               tabIndex={-1}
+              onMouseEnter={() => {
+                if (dropdownTimeout.current) clearTimeout(dropdownTimeout.current);
+                setDropdownOpen(true);
+              }}
+              onMouseLeave={() => {
+                dropdownTimeout.current = setTimeout(() => setDropdownOpen(false), 2000);
+              }}
             >
               <Link href="/members/alumni" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Alumni</Link>
               <Link href="/members/flagbearers" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Flagbearers</Link>

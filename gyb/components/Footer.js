@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="bg-[#f8f3eb] text-[#2c1f16] px-6 py-10 text-sm font-serif">
       <div className="max-w-6xl mx-auto border-t border-[#2c1f16] pt-8">
         <div className="flex flex-col md:flex-row justify-between gap-12">
-
           {/* Left Section */}
           <div>
             <h2 className="text-2xl font-medium mb-6">Get Your Book</h2>
@@ -26,8 +25,8 @@ export default function Footer() {
             <a href="#" className="block hover:underline">Terms & Conditions</a>
             <a href="#" className="block hover:underline">Refund Policy</a>
             <p className="mt-6 text-s">©2025 by GYB CLUB.</p>
+            <p className="text-md mt-2">Developed by <span className='underline font-bold'>Ayush</span> and <span className='underline font-bold'>Anantam</span></p>
           </div>
-
         </div>
       </div>
     </footer>
