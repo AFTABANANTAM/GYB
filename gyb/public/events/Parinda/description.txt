@@ -31,4 +31,5 @@
   </ul>
 
   <p class="text-xl md:text-2xl text-yellow-800 font-semibold text-center mt-8">
-    Parinda is not just
+    Parinda is not just an event. It is a collaborative effort to give wings to kindness and protect those who cannot speak.
+    </p>
