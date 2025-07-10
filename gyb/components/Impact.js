@@ -26,7 +26,7 @@ const projects = [
       <h2 className="text-3xl font-bold mb-2">Our Impactful Projects</h2>
       <p className="mb-1 text-sm">Creating Lasting Change</p>
       <p className="text-sm mb-6 max-w-2xl">
-        Explore our ongoing or upcoming projects to see the difference we're making.
+        Explore our ongoing or upcoming projects to see the difference we&apos;re making.
         Contact us to learn how you can be part of our mission.
       </p>
       <div className="divide-y divide-[#2d1d15] border-t border-b border-[#2d1d15]">

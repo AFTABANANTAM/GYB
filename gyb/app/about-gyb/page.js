@@ -28,7 +28,7 @@ export default function AboutGYBPage() {
 
   <br /><br />
 
-  Our club operates with a simple yet powerful vision: to bridge the gap between potential and opportunity. We collect gently used
+  Our club operates with a simple yet powerful vision: to bridge the gap between potential and opportunity. We collect used
   or new books from donors and redirect them to students who need them the most—whether in rural schools, orphanages, or shelters.
   But our work doesn&apos;t stop at books. Through regular volunteering, community outreach, and partnerships with NGOs and academic leaders,
   we aim to foster a culture of empathy, literacy, and social responsibility among students at NIT Patna and beyond.
@@ -59,7 +59,7 @@ export default function AboutGYBPage() {
             <h2 className="text-2xl font-bold mb-2">Dr. SHIV SHANKAR KUMAR</h2>
             <h3 className="text-md font-medium text-gray-700 mb-2">Meet our Professor In-Charge</h3>
             <p className="text-gray-600">
-              Dr. Shiv Shankar Kumar, a dedicated educator from NIT Patna, serves as the guiding force behind GYB Club's mission. With a passion for community empowerment, Dr. Kumar leads the club in celebrating festivals with underprivileged children, organizing book collection drives, and hosting inclusive fun events. His strategic leadership, mentorship, and commitment to social impact drive the club&apos;s efforts to create positive change and brighter futures for all.</p>
+              Dr. Shiv Shankar Kumar, a dedicated educator from NIT Patna, serves as the guiding force behind GYB Club&apos;s mission. With a passion for community empowerment, Dr. Kumar leads the club in celebrating festivals with underprivileged children, organizing book collection drives, and hosting inclusive fun events. His strategic leadership, mentorship, and commitment to social impact drive the club&apos;s efforts to create positive change and brighter futures for all.</p>
           </div>
         </div>
       </motion.section>
