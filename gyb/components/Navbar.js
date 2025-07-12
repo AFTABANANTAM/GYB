@@ -61,10 +61,11 @@ export default function Navbar() {
                 dropdownTimeout.current = setTimeout(() => setDropdownOpen(false), 2000);
               }}
             >
-              <Link href="/members/alumni" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Alumni</Link>
               <Link href="/members/flagbearers" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Flagbearers</Link>
               <Link href="/members/batch-24" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Batch 24</Link>
               <Link href="/members/batch-23" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Batch 23</Link>
+              <Link href="/members/alumni" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Alumni</Link>
+
             </div>
           </div>
           <Link href="/resources" className="hover:underline">Resources</Link>
@@ -95,9 +96,11 @@ export default function Navbar() {
           {/* Members Dropdown for mobile */}
           <div>
             <span className="block font-semibold mt-2 mb-1">Members</span>
-            <Link href="/members/alumni" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Alumni</Link>
             <Link href="/members/flagbearers" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Flagbearers</Link>
             <Link href="/members/batch-24" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Batch 24</Link>
+            <Link href="/members/batch-23" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Batch 23</Link>
+            <Link href="/members/alumni" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Alumni</Link>
+
           </div>
           <Link href="/resources" className="block" onClick={() => setMenuOpen(false)}>Resources</Link>
           <Link href="/donate" className="inline-block mt-2">
