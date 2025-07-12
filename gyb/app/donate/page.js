@@ -31,8 +31,8 @@ function page() {
               className="w-full px-4 py-3 rounded-md border border-gray-300 focus:ring-yellow-400 focus:outline-none"
             />
             <input
-              type="number"
-              placeholder="Donation Amount (₹)"
+              type="text"
+              placeholder="Your Message"
               className="w-full px-4 py-3 rounded-md border border-gray-300 focus:ring-yellow-400 focus:outline-none"
             />
             <Link

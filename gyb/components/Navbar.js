@@ -64,6 +64,7 @@ export default function Navbar() {
               <Link href="/members/alumni" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Alumni</Link>
               <Link href="/members/flagbearers" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Flagbearers</Link>
               <Link href="/members/batch-24" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Batch 24</Link>
+              <Link href="/members/batch-23" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Batch 23</Link>
             </div>
           </div>
           <Link href="/resources" className="hover:underline">Resources</Link>
