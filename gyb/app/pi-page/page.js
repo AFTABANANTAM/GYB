@@ -35,7 +35,7 @@ export default function PIPage() {
         {/* Paragraph Section */}
         <div className="mt-10 bg-[#fdf0e4] p-6 rounded-lg border-l-4 border-[#b4523b] shadow-md text-[#2d1d15] font-serif leading-relaxed text-justify">
           <p className="text-lg">
-  <span className="text-2xl font-bold text-[#6a1b1a]">Prof. [Full Name]</span>, a senior faculty member at NIT Patna and a committed mentor to socially conscious student initiatives, has been instrumental in shaping the club’s direction, values, and outreach. 
+  <span className="text-2xl font-bold text-[#6a1b1a]">Prof. Shiv Shankar Kumar</span>, a senior faculty member at NIT Patna and a committed mentor to socially conscious student initiatives, has been instrumental in shaping the club’s direction, values, and outreach. 
   <strong>As the Professor-in-Charge</strong> of GYB, he plays a central role in guiding the club’s sustained growth and meaningful impact.
   <br /><br />
   GYB, dedicated to social welfare and community development, has greatly benefited from his vision of empowering youth through service, empathy, and responsibility. 
