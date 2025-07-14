@@ -1,0 +1,51 @@
+'use client';
+"use client";
+import { FaEnvelope } from "react-icons/fa";
+
+export default function PIPage() {
+  return (
+    <div className="min-h-screen bg-[#fff2ee] py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+      <div className="bg-white rounded-3xl shadow-xl max-w-5xl w-full p-8 sm:p-10 md:p-12 border border-[#e5c6be]">
+        {/* Header Section */}
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+          {/* Image */}
+          <img
+            src="/images/PI.jpg"
+            alt="Dr. Shiv Shankar Kumar"
+            className="w-48 h-48 rounded-full object-cover border-4 border-[#ecc8a0] shadow-lg"
+          />
+
+          {/* Info */}
+          <div>
+            <h1 className="text-3xl font-extrabold text-[#6a1b1a] mb-2">Dr. Shiv Shankar Kumar</h1>
+            <p className="text-lg text-gray-700 font-medium mb-2">
+              Professor In-Charge, GYB Club, NIT Patna
+            </p>
+
+            <a
+              href="mailto:k.shiv.ce@nitp.ac.in"
+              className="inline-flex items-center gap-2 bg-[#6a1b1a] text-white px-4 py-2 rounded-full shadow hover:bg-[#8b2c2b] transition"
+            >
+              <FaEnvelope className="text-sm" />
+              Connect with our PI
+            </a>
+          </div>
+        </div>
+
+        {/* Paragraph Section */}
+        <div className="mt-10 bg-[#fdf0e4] p-6 rounded-lg border-l-4 border-[#b4523b] shadow-md text-[#2d1d15] font-serif leading-relaxed text-justify">
+          <p className="text-lg">
+  <span className="text-2xl font-bold text-[#6a1b1a]">Prof. [Full Name]</span>, a senior faculty member at NIT Patna and a committed mentor to socially conscious student initiatives, has been instrumental in shaping the club’s direction, values, and outreach. 
+  <strong>As the Professor-in-Charge</strong> of GYB, he plays a central role in guiding the club’s sustained growth and meaningful impact.
+  <br /><br />
+  GYB, dedicated to social welfare and community development, has greatly benefited from his vision of empowering youth through service, empathy, and responsibility. 
+  His mentorship ensures that our efforts remain aligned with both institutional values and real-world societal needs.
+  <br /><br />
+  At the core of our progress lies his thoughtful leadership, which continues to inspire students to engage with purpose and compassion.
+</p>
+
+        </div>
+      </div>
+    </div>
+  );
+}

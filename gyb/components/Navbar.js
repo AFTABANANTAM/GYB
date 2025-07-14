@@ -67,6 +67,7 @@ export default function Navbar() {
               <Link href="/members/batch-23" className="block px-4 py-2 hover:bg-yellow-100 text-[#2c1f16]">Batch 23</Link>
             </div>
           </div>
+          <Link href="/pi-page" className="hover:underline">Meet Our PI</Link>
           <Link href="/resources" className="hover:underline">Resources</Link>
         </div>
 
@@ -99,12 +100,14 @@ export default function Navbar() {
             <Link href="/members/flagbearers" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Flagbearers</Link>
             <Link href="/members/batch-24" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Batch 24</Link>
           </div>
+          <Link href="/pi-page" className="block" onClick={() => setMenuOpen(false)}>Meet Our PI</Link>
           <Link href="/resources" className="block" onClick={() => setMenuOpen(false)}>Resources</Link>
           <Link href="/donate" className="inline-block mt-2">
             <button className=" cursor-pointer w-full border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
               Donate Us
             </button>
           </Link>
+
         </div>
       )}
     </nav>
