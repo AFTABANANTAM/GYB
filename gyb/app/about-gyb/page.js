@@ -93,7 +93,7 @@ export default function AboutGYBPage() {
 />
 
           <div>
-            <h2 className="text-2xl font-bold text-[#2d1d15] mb-2">[SHIV RANJAN]</h2>
+            <h2 className="text-2xl font-bold text-[#2d1d15] mb-2">SHIV RANJAN KUMAR</h2>
             <h3 className="text-md font-medium text-[#794d2b] mb-2">President, Get Your Book</h3>
             <p className="text-[#4b3c2d]">
               Led GYB with a strong belief in the transformative power of books,
