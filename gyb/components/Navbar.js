@@ -35,6 +35,8 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-10">
           <Link href="/" className="hover:underline">Home</Link>
           <Link href="/events" className="hover:underline">Events</Link>
+          <Link href="/pi-page" className="hover:underline">Meet Our PI</Link>
+
           {/* Members Dropdown */}
           <div className="relative group"
             onMouseEnter={() => {
@@ -68,7 +70,6 @@ export default function Navbar() {
 
             </div>
           </div>
-          <Link href="/pi-page" className="hover:underline">Meet Our PI</Link>
           <Link href="/resources" className="hover:underline">Resources</Link>
         </div>
 
@@ -94,6 +95,8 @@ export default function Navbar() {
         <div className="md:hidden px-4 pb-4 space-y-2 text-sm">
           <Link href="/" className="block" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/events" className="block" onClick={() => setMenuOpen(false)}>Events</Link>
+          <Link href="/pi-page" className="block" onClick={() => setMenuOpen(false)}>Meet Our PI</Link>
+
           {/* Members Dropdown for mobile */}
           <div>
             <span className="block font-semibold mt-2 mb-1">Members</span>
@@ -103,7 +106,6 @@ export default function Navbar() {
             <Link href="/members/alumni" className="block pl-4 py-1" onClick={() => setMenuOpen(false)}>Alumni</Link>
 
           </div>
-          <Link href="/pi-page" className="block" onClick={() => setMenuOpen(false)}>Meet Our PI</Link>
           <Link href="/resources" className="block" onClick={() => setMenuOpen(false)}>Resources</Link>
           <Link href="/donate" className="inline-block mt-2">
             <button className=" cursor-pointer w-full border border-[#2c1f16] px-4 py-1 rounded hover:bg-[#2c1f16] hover:text-[#f8f3eb] transition">
