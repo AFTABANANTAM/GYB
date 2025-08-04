@@ -37,7 +37,7 @@ export default function PIPage() {
           <p className="text-[1.25rem] leading-relaxed tracking-wide">
   
   At the core of GYB’s sustained growth and meaningful impact lies the guidance and leadership of our esteemed 
-  <strong> Professor-in-Charge, Prof. Shiv Shankar Kumar</strong>.
+  <strong> Professor-in-Charge, Dr. Shiv Shankar Kumar</strong>.
   <br /><br />
   As a senior faculty member at NIT Patna and a committed mentor to socially conscious student initiatives, 
   Prof. Shiv has been instrumental in shaping the club’s direction, values, and outreach.
