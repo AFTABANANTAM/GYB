@@ -1,6 +1,6 @@
 <div class="max-w-4xl mx-auto px-4 py-5 bg-white rounded-lg shadow-md mt-6">
   <h1 class="text-2xl font-bold text-blue-600 mb-3">
-    A Celebration by Engineers, for Engineers! 🎉
+    A Celebration by Engineers, for Engineers! 
   </h1>
 
   <p class="text-gray-800 mb-3 text-sm">
@@ -15,10 +15,10 @@
   </p>
 
   <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
-    <li>🎤 <strong>Stand-Up Comedy</strong> – Get ready to laugh till your stomach hurts!</li>
-    <li>🎶 <strong>Musical Performances</strong> – From soulful solos to powerful duets, music will set the mood just right.</li>
-    <li>🧠 <strong>Exciting Quizzes</strong> – Test your brainpower and win the crowd.</li>
-    <li>🎭 <strong>Full-On Entertainment</strong> – A complete dose of fun, joy, and connection!</li>
+    <li> <strong>Stand-Up Comedy</strong> – Get ready to laugh till your stomach hurts!</li>
+    <li> <strong>Musical Performances</strong> – From soulful solos to powerful duets, music will set the mood just right.</li>
+    <li> <strong>Exciting Quizzes</strong> – Test your brainpower and win the crowd.</li>
+    <li> <strong>Full-On Entertainment</strong> – A complete dose of fun, joy, and connection!</li>
   </ul>
 
   <p class="text-gray-800 text-sm mt-3">
