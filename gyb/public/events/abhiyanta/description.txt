@@ -1,6 +1,6 @@
 <div class="w-full bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-0 md:px-0 py-8 md:py-12 rounded-none shadow-none my-0">
   <h1 class="text-4xl md:text-6xl font-extrabold text-center text-yellow-700 mb-8 drop-shadow-lg tracking-tight">
-    A Celebration by Engineers, for Engineers! 🎉
+    A Celebration by Engineers, for Engineers!
   </h1>
 
   <p class="text-xl md:text-2xl text-gray-800 mb-6 leading-relaxed text-center">
@@ -16,19 +16,19 @@
 
   <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg md:text-xl text-gray-700 mb-4 px-4 md:px-24">
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">🎤</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Stand-Up Comedy</span> – Get ready to laugh till your stomach hurts!</span>
     </li>
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">🎶</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Musical Performances</span> – From soulful solos to powerful duets, music will set the mood just right.</span>
     </li>
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">🧠</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Exciting Quizzes</span> – Test your brainpower and win the crowd.</span>
     </li>
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">🎭</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Full-On Entertainment</span> – A complete dose of fun, joy, and connection!</span>
     </li>
   </ul>
