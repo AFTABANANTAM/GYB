@@ -20,7 +20,7 @@ export const metadata = {
   title: "Get Your Book",
   description: "Spread happiness through books",
   icons : {
-    icon : "/logo.svg"
+    icon : "/images/Ayush.jpg"
   },
 };
 
