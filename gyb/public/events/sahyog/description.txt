@@ -1,6 +1,6 @@
 <div class="w-full bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-0 md:px-0 py-8 md:py-12 rounded-none shadow-none my-0">
   <h1 class="text-4xl md:text-6xl font-extrabold text-center text-yellow-700 mb-8 drop-shadow-lg tracking-tight">
-    A Celebration of Togetherness and Joy 🌈
+    A Celebration of Togetherness and Joy 
   </h1>
 
   <p class="text-xl md:text-2xl text-gray-800 mb-6 leading-relaxed text-center">
@@ -13,19 +13,19 @@
 
   <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg md:text-xl text-gray-700 mb-4 px-4 md:px-24">
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">🎨</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Colors & Celebration</span> – Spreading the true spirit of Holi with every smile.</span>
     </li>
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">🤗</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Sharing Joy</span> – Creating memories with children who deserve all the happiness in the world.</span>
     </li>
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">🏞️</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Fun Outings</span> – From trampoline parks to gardens, every place becomes a playground of laughter.</span>
     </li>
     <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
-      <span class="text-2xl">💖</span>
+      <span class="text-2xl"></span>
       <span><span class="font-semibold text-yellow-800">Compassion & Care</span> – Reminding us that true celebration is found in giving and growing together.</span>
     </li>
   </ul>
