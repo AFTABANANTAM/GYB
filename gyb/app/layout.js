@@ -22,6 +22,8 @@ export const metadata = {
   icons : {
     icon : "/logo.svg"
   },
+  keywords : ['GYB', 'Get Your Book', 'NIT Patna', 'Social Service NITP', 'getyourbook', 'GYB NIT Patna','GYB NITP', 'Community Service NITP'],
+
 };
 
 export default function RootLayout({ children }) {
