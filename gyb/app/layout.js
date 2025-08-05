@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Get Your Book",
   description: "Spread happiness through books",
+  icons : {
+    icon : "/logo.svg"
+  },
 };
 
 export default function RootLayout({ children }) {
