@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "url": "https://getyourbook-nitp.vercel.app/",
+            "url": "https://getyourbook-nitp.vercel.app",
             "logo": "/logo.svg"
           })}
         </script>
