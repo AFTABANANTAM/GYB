@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "Organization",
             "url": "https://getyourbook-nitp.vercel.app",
-            "logo": "/logo.svg"
+            "logo": "/favicon.ico"
           })}
         </script>
       </head>
