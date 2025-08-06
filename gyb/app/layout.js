@@ -18,20 +18,42 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Get Your Book",
   description: "Spread happiness through books",
-  icons : {
-    icon : "/favicon.ico"
+  icons: {
+    icon: "/favicon.ico",
   },
-  keywords : ['GYB', 'Get Your Book', 'NIT Patna', 'Social Service NITP', 'getyourbook', 'GYB NIT Patna','GYB NITP', 'Community Service NITP'],
-
+  keywords: ['GYB', 'Get Your Book', 'NIT Patna', 'Social Service NITP', 'getyourbook', 'GYB NIT Patna','GYB NITP', 'Community Service NITP'],
+  openGraph: {
+    title: "Get Your Book",
+    description: "Spread happiness through books",
+    url: "https://getyourbook-nitp.vercel.app/",
+    siteName: "Get Your Book",
+    images: [
+      {
+        url: "/logo.svg",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} antialiased`}
-      >
-        <Navbar/>
+      <head>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://getyourbook-nitp.vercel.app/",
+            "logo": "/logo.svg"
+          })}
+        </script>
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} antialiased`}>
+        <Navbar />
         {children}
         <Footer />
       </body>
