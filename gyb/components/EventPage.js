@@ -22,7 +22,7 @@ export default function EventPage({ heading, description, images }) {
       timeoutRef.current = setTimeout(() => {
         setCurrentIndex(prev => (prev + 1) % images.length);
       }, 200);
-    }, 3000);
+    }, 5000);
     return () => {
       clearInterval(interval);
       clearTimeout(timeoutRef.current);

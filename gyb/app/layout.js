@@ -15,12 +15,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
 export const metadata = {
   title: "Get Your Book",
   description: "Spread happiness through books",
   icons : {
-    icon : "/logo.svg"
+    icon : "/favicon.ico"
   },
   keywords : ['GYB', 'Get Your Book', 'NIT Patna', 'Social Service NITP', 'getyourbook', 'GYB NIT Patna','GYB NITP', 'Community Service NITP'],
 
