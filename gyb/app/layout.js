@@ -34,11 +34,16 @@ export const metadata = {
         url: "https://getyourbook-nitp.vercel.app/logo.png",
         width: 800,
         height: 600,
+        alt: "Get Your Book Logo",
       },
     ],
     locale: "en_US",
     type: "website",
   },
+    twitter: {
+    card: 'summary_large_image',
+    images: ['https://getyourbook-nitp.vercel.app/logo.png'],
+  }
 };
 
 export default function RootLayout({ children }) {
