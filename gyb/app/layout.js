@@ -31,7 +31,7 @@ export const metadata = {
     siteName: "Get Your Book",
     images: [
       {
-        url: "/logo.svg",
+        url: "https://getyourbook-nitp.vercel.app/logo.png",
         width: 800,
         height: 600,
       },
@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "url": "https://getyourbook-nitp.vercel.app",
-              "logo": "https://getyourbook-nitp.vercel.app/logo.svg"
+              "logo": "https://getyourbook-nitp.vercel.app/logo.png"
             }),
           }}
         />
