@@ -23,7 +23,7 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  keywords: ['GYB', 'Get Your Book', 'NIT Patna', 'Social Service NITP', 'getyourbook', 'GYB NIT Patna','GYB NITP', 'Community Service NITP'],
+  keywords: ['GYB','gyb nitp','get your book nitp', 'Get Your Book', 'NIT Patna', 'Social Service NITP', 'getyourbook', 'GYB NIT Patna','GYB NITP', 'Community Service NITP'],
   openGraph: {
     title: "Get Your Book",
     description: "Spread happiness through books",
@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "url": "https://getyourbook-nitp.vercel.app",
-              "logo": "/favicon.ico"
+              "logo": "https://getyourbook-nitp.vercel.app/logo.svg"
             }),
           }}
         />
