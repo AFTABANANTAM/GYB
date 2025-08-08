@@ -1,16 +1,29 @@
-<div class="max-w-4xl mx-auto p-4 bg-white rounded-lg shadow-md mt-4">
-  <h1 class="text-2xl font-bold text-yellow-600 mb-2">A Festival of Light and Love</h1>
+<div class="max-w-4xl mx-auto px-4 py-5 bg-white rounded-lg shadow-md mt-6">
+  <h1 class="text-2xl font-bold text-blue-600 mb-3">
+    A Festival of Light and Love – Jyoti
+  </h1>
 
-  <p class="text-gray-800 mb-2">
-    <strong class="text-yellow-700">Jyoti</strong> is a beautiful initiative organized by the
-    <strong>GYB Club, NIT Patna</strong> every Diwali, with a simple yet powerful purpose — to celebrate the festival of lights with underprivileged and orphaned children.
+  <p class="text-gray-800 mb-3 text-sm">
+    Every Diwali, <strong>GYB (Get Your Book) Club, NIT Patna</strong> lights up lives through its heartfelt initiative –
+    <strong class="text-blue-700">Jyoti</strong>. This event is dedicated to celebrating the festival of lights with underprivileged and orphaned children, spreading warmth, joy, and love where it's needed most.
   </p>
 
-  <p class="text-gray-800 mb-2">
-    During this event, the team visits a local orphanage, spending quality time with the kids — lighting diyas, sharing sweets, playing games, and spreading joy. Along with celebrations, they also donate essential items like sanitary napkins, mosquito nets, blankets, and study materials to support the children's daily needs.
+  <p class="text-gray-800 mb-3 text-sm">
+    The team visits local orphanages to spend meaningful time with the children — lighting diyas, playing games, sharing sweets, and creating beautiful memories together. But Jyoti goes beyond just celebration.
   </p>
 
-  <p class="text-gray-800">
-    But what truly makes <strong class="text-yellow-700">Jyoti</strong> special is the heartfelt care taken to ensure that the children never feel the absence of their parents during the celebration. Instead of making them emotional, the volunteers focus on bringing genuine happiness, laughter, and love, making them feel cherished, not pitied.
+  <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
+    <li><strong>Gifts with Purpose</strong> – Donation of sanitary napkins, mosquito nets, blankets, and study materials to support daily needs.</li>
+    <li><strong>Moments of Joy</strong> – Fun-filled activities that bring out smiles, laughter, and light-heartedness.</li>
+    <li><strong>Emotional Care</strong> – Volunteers focus on making children feel loved, not pitied, ensuring they never feel the absence of family.</li>
+    <li><strong>A Celebration of Togetherness</strong> – A festival that binds hearts, regardless of background or circumstance.</li>
+  </ul>
+
+  <p class="text-gray-800 text-sm mt-3">
+    What truly makes <strong class="text-blue-700">Jyoti</strong> special is the compassion behind it — creating a space where children feel valued, celebrated, and connected during a time that often highlights what they lack.
+  </p>
+
+  <p class="text-gray-800 text-sm mt-3">
+    Join GYB Club in lighting not just diyas, but lives — with love, joy, and a sense of belonging that shines far beyond the festival.
   </p>
 </div>

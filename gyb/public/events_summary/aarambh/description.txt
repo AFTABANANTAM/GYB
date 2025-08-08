@@ -1,0 +1,33 @@
+<div class="max-w-4xl mx-auto px-4 py-5 bg-white rounded-lg shadow-md mt-6">
+  <h1 class="text-2xl font-bold text-blue-600 mb-3">
+    Aarambh – A Step Towards Spreading Knowledge
+  </h1>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    <strong>GYB (Get Your Book) Club, NIT Patna</strong> proudly brings you
+    <strong class="text-blue-700">Aarambh</strong> – a unique initiative to spark curiosity and nurture critical thinking through bite-sized, engaging content on Instagram!
+  </p>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    Every day, under the banner of Aarambh, short and interactive stories are posted featuring thoughtful multiple-choice questions covering topics like:
+  </p>
+
+  <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
+    <li><strong>Logical Reasoning</strong> – Sharpen your problem-solving skills.</li>
+    <li><strong>Aptitude & Coding</strong> – Tackle challenges designed to test and teach.</li>
+    <li><strong>Current Affairs</strong> – Stay updated, one question at a time.</li>
+    <li><strong>General Knowledge</strong> – Broaden your horizon with daily facts.</li>
+  </ul>
+
+  <p class="text-gray-800 text-sm mt-3">
+    What makes Aarambh special? It’s simple, accessible, and effective. Each story features a clean design, a thought-provoking question, and the answer revealed right below—perfect for quick learning in just a few seconds.
+  </p>
+
+  <p class="text-gray-800 text-sm mt-3">
+    Whether you're preparing for competitive exams or just love to learn, Aarambh is your daily dose of brain-boosting content—right where you already are: on Instagram!
+  </p>
+
+  <p class="text-gray-800 text-sm mt-3">
+    In a world of endless scrolling, <strong class="text-blue-700">Aarambh</strong> transforms social media into a platform for learning, growth, and inspiration—one story at a time.
+  </p>
+</div>

@@ -1,0 +1,76 @@
+<div class="w-full bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-0 md:px-0 py-8 md:py-12 rounded-none shadow-none my-0">
+  <h1 class="text-4xl md:text-6xl font-extrabold text-center text-yellow-700 mb-8 drop-shadow-lg tracking-tight">
+    Aarambh – Sparking Curiosity, One Question at a Time
+  </h1>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-6 leading-relaxed text-center">
+    In a world of endless scrolling, <span class="font-semibold text-yellow-700">GYB (Get Your Book) Club, NIT Patna</span> introduces
+    <span class="font-bold text-yellow-800">Aarambh</span> — a daily dose of learning and curiosity delivered straight through Instagram stories.
+  </p>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed text-center">
+    With just <span class="italic text-yellow-900">one smartly designed question per day</span>,
+    Aarambh transforms casual scrolling into meaningful engagement — igniting minds with topics from
+    <span class="underline decoration-yellow-500">reasoning, aptitude, coding, science, and current affairs</span>.
+  </p>
+
+  <div class="text-center mb-10">
+    <h2 class="text-2xl md:text-3xl font-bold text-yellow-800 mb-4">
+      📱 The Aarambh Format
+    </h2>
+    <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+      Each Instagram story features a <span class="font-semibold text-yellow-700">visually engaging multiple-choice question</span>,
+      followed by four options and the correct answer at the bottom. It’s <span class="font-semibold">quick, interactive, and brain-boosting</span>
+      — perfect for busy students and curious minds alike.
+    </p>
+  </div>
+
+  <div class="text-center mb-10">
+    <h2 class="text-2xl md:text-3xl font-bold text-yellow-800 mb-4">
+      🎯 Why Aarambh Works
+    </h2>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg md:text-xl text-gray-700 px-4 md:px-24">
+      <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+        <span class="text-2xl">💡</span>
+        <span><span class="font-semibold text-yellow-800">Bites of Knowledge:</span> Learn something new in under 60 seconds — no heavy reading required.</span>
+      </li>
+      <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+        <span class="text-2xl">🧠</span>
+        <span><span class="font-semibold text-yellow-800">Boosts Critical Thinking:</span> Sharpen problem-solving, logic, and general awareness — one question at a time.</span>
+      </li>
+      <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+        <span class="text-2xl">🎨</span>
+        <span><span class="font-semibold text-yellow-800">Aesthetic Design:</span> Clean visuals and soothing colors enhance learning and retention.</span>
+      </li>
+      <li class="flex items-start gap-3 bg-yellow-50 rounded-xl p-4 shadow">
+        <span class="text-2xl">📚</span>
+        <span><span class="font-semibold text-yellow-800">Perfect for Aspirants:</span> Helpful for those preparing for SSC, UPSC, CAT, or placements.</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="text-center mb-10">
+    <h2 class="text-2xl md:text-3xl font-bold text-yellow-800 mb-4">
+      🌟 A Culture of Curiosity
+    </h2>
+    <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+      Aarambh encourages a habit of learning, not by pressure, but through <span class="font-semibold text-yellow-700">curiosity and engagement</span>.
+      The questions go beyond textbooks — from decoding logic puzzles to spotting current tech trends, each post is crafted to spark thought and invite participation.
+    </p>
+  </div>
+
+  <div class="text-center mb-10">
+    <h2 class="text-2xl md:text-3xl font-bold text-yellow-800 mb-4">
+      🤝 Community-Driven Learning
+    </h2>
+    <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+      Aarambh isn’t just a daily quiz — it’s becoming a movement. Students share answers, tag friends, and even submit question ideas.
+      It’s <span class="font-semibold text-yellow-700">learning that’s social, interactive, and driven by the community</span>.
+    </p>
+  </div>
+
+  <p class="text-xl md:text-2xl text-gray-800 mb-4 leading-relaxed text-center px-4 md:px-20">
+    <strong class="text-yellow-800">GYB Club’s Aarambh</strong> redefines how we learn online — blending knowledge with creativity, purpose with design.
+    In just one slide a day, it is <span class="font-semibold text-yellow-700">quietly shaping sharper, more curious minds</span> across the student community.
+  </p>
+</div>

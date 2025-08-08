@@ -1,0 +1,29 @@
+<div class="max-w-4xl mx-auto px-4 py-5 bg-white rounded-lg shadow-md mt-6">
+  <h1 class="text-2xl font-bold text-blue-600 mb-3">
+    GYB Club Book Donation Drive – Sharing Knowledge, Spreading Smiles
+  </h1>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    At <strong>GYB (Get Your Book) Club, NIT Patna</strong>, we believe that knowledge multiplies when shared. With that spirit, we proudly present the
+    <strong class="text-blue-700">Book Donation Drive</strong> – a heartfelt initiative to spread education and joy through the power of books.
+  </p>
+
+  <p class="text-gray-800 mb-3 text-sm">
+    The mission is simple yet impactful: collect old or unused books from students and well-wishers, and deliver them to underprivileged children who need them the most. Instead of gathering dust, your donated books can spark dreams and open doors.
+  </p>
+
+  <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
+    <li><strong>Donate Freely</strong> – Books of any subject, level, or board are welcome.</li>
+    <li><strong>Organized Distribution</strong> – Every book is sorted and ensured to be in good condition.</li>
+    <li><strong>Direct Impact</strong> – Donations reach children in slum areas, orphanages, and rural schools.</li>
+    <li><strong>Promote Change</strong> – A small contribution from you becomes a giant leap for someone’s learning journey.</li>
+  </ul>
+
+  <p class="text-gray-800 text-sm mt-3">
+    This initiative not only fuels education but also nurtures empathy and responsibility among youth. It’s a bridge between abundance and need—where every book tells a new story, and every child finds a new hope.
+  </p>
+
+  <p class="text-gray-800 text-sm mt-3">
+    <strong class="text-blue-700">Join the movement.</strong> Let’s create a ripple of change, one book at a time.
+  </p>
+</div>

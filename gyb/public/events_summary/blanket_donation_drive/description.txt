@@ -1,29 +1,33 @@
-<div class="max-w-4xl mx-auto p-4 bg-white rounded-lg shadow-md mt-4">
-  <h1 class="text-2xl font-bold text-red-600 mb-2">
+
+
+
+
+<div class="max-w-4xl mx-auto px-4 py-5 bg-white rounded-lg shadow-md mt-6">
+  <h1 class="text-2xl font-bold text-blue-600 mb-3">
     Spreading Warmth, One Blanket at a Time
   </h1>
 
-  <p class="text-gray-800 mb-2">
-    In the chilly months of winter, while many of us find comfort under warm blankets, there are countless people who
-    brave the cold with little to no protection. Understanding this harsh reality,
-    <strong>GYB Club, NIT Patna</strong> organizes a heartfelt initiative — the
-    <strong class="text-red-700">Blanket Donation Drive</strong>.
+  <p class="text-gray-800 mb-3 text-sm">
+    As winter chills set in, <strong>GYB (Get Your Book) Club, NIT Patna</strong> steps forward with compassion through its
+    <strong class="text-blue-700">Blanket Donation Drive</strong> – an initiative to bring warmth and dignity to those in need.
   </p>
 
-  <p class="text-gray-800 mb-2">
-    Through this event, the club reaches out to the underprivileged and homeless communities, distributing blankets
-    to those who need them the most. It’s not just about offering warmth from the outside, but also showing care,
-    compassion, and humanity from the inside.
+  <p class="text-gray-800 mb-3 text-sm">
+    While many enjoy the comfort of cozy homes and thick blankets, countless people in our society face harsh nights without protection. This drive aims to reach the homeless and underprivileged, offering them not just physical warmth, but a message of care and solidarity.
   </p>
 
-  <p class="text-gray-800 mb-2">
-    Each blanket handed out is more than just fabric — it’s a gesture of hope, a symbol of support, and a reminder
-    that no one is forgotten.
+  <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
+    <li><strong>Direct Impact</strong> – Blankets are distributed to people in slum areas and streets during the coldest months.</li>
+    <li><strong>Community Driven</strong> – Students and volunteers come together to collect and distribute blankets.</li>
+    <li><strong>More Than Fabric</strong> – Each blanket symbolizes hope, support, and shared humanity.</li>
+    <li><strong>Promotes Compassion</strong> – Encourages youth to step into meaningful action beyond campus boundaries.</li>
+  </ul>
+
+  <p class="text-gray-800 text-sm mt-3">
+    This initiative is a true reflection of kindness in action—where giving is simple, yet its impact is profound. For someone out in the cold, a single blanket can mean the world.
   </p>
 
-  <p class="text-gray-800">
-    This drive reflects the true spirit of giving, where students come together to make winters a little kinder
-    for those less fortunate.<br />
-    <strong class="text-red-700">Because sometimes, the smallest act of kindness can bring the greatest warmth.</strong>
+  <p class="text-gray-800 text-sm mt-3">
+    <strong class="text-blue-700">Join hands with GYB Club</strong> in making winters warmer, and hearts fuller. Because sometimes, the smallest gesture can bring the greatest warmth.
   </p>
 </div>
