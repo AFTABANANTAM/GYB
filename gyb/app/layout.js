@@ -1,8 +1,8 @@
-import { Geist, Geist_Mono , Fraunces } from "next/font/google";
+import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Head from "next/head";
+// ❌ DO NOT import Head from 'next/head' here
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,13 +17,16 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 export const metadata = {
   title: "Get Your Book",
   description: "Spread happiness through books",
+  // This is the correct way to add the favicon
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.ico"
   },
   keywords: ['GYB','gyb nitp','get your book nitp', 'Get Your Book', 'NIT Patna', 'Social Service NITP', 'getyourbook', 'GYB NIT Patna','GYB NITP', 'Community Service NITP'],
+
   openGraph: {
     title: "Get Your Book",
     description: "Spread happiness through books",
@@ -46,22 +49,12 @@ export const metadata = {
   }
 };
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "url": "https://getyourbook-nitp.vercel.app",
-              "logo": "https://getyourbook-nitp.vercel.app/logo.png"
-            }),
-          }}
-        />
-      </Head>
+      {/* ❌ The <Head> component has been removed */}
       <body className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} antialiased`}>
         <Navbar />
         {children}
