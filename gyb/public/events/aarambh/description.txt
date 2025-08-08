@@ -9,7 +9,7 @@
   </p>
 
   <p class="text-xl md:text-2xl text-gray-800 mb-8 leading-relaxed text-center">
-    With just <span class="italic text-yellow-900">one smartly designed question per day</span>,
+    With just <span class="italic text-yellow-900">two smartly designed question per day</span>,
     Aarambh transforms casual scrolling into meaningful engagement — igniting minds with topics from
     <span class="underline decoration-yellow-500">reasoning, aptitude, coding, science, and current affairs</span>.
   </p>
