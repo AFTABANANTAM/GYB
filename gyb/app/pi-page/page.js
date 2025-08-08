@@ -35,9 +35,9 @@ export default function PIPage() {
         {/* Paragraph Section */}
         <div className="mt-8 bg-gradient-to-r from-[#fff5f2] via-[#fbe9e7] to-[#fff5f2] p-6 rounded-2xl shadow-md border border-[#ecc8a0]">
   <p className="text-lg text-[#4a2f2a] leading-relaxed font-serif text-justify">
-    <span className="block text-2xl font-bold text-[#6a1b1a] mb-2">
+  
       At the core of GYB’s sustained growth and meaningful impact
-    </span>
+  
     lies the guidance and leadership of our esteemed <strong>Professor-in-Charge, Dr. Shiv Shankar Kumar</strong>.
     <br /><br />
     A well-respected faculty member at <strong>NIT Patna</strong> and a committed mentor to socially conscious student initiatives,
