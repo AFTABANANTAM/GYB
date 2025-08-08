@@ -42,7 +42,7 @@ export default function PIPage() {
     <br /><br />
     A well-respected faculty member at <strong>NIT Patna</strong> and a committed mentor to socially conscious student initiatives,
     Dr. Shiv Shankar Kumar has been instrumental in shaping the club’s <em>direction, values,</em> and outreach.
-    <br /><br />
+    <br/><br/>
     Under his visionary mentorship, GYB has flourished as a platform that empowers youth to lead with empathy,
     responsibility, and a deep commitment to community development — always aligning our efforts with both
     institutional principles and real-world social needs.
