@@ -49,10 +49,10 @@ function page() {
       {/* Call to Action */}
       <section className="py-20 text-center bg-white">
         <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-4">
-         HERE FOR A CHAT
+TOGETHER WE CAN TURN THEIR STRUGGLE INTO STRENGTH
         </h2>
         <p className="text-gray-700 mb-6">
-          Let's connect to discuss anything with that's on your mind.
+          Let us connect to discuss anything with that's on your mind.
         </p>
         <Link
   href="/contribute"
