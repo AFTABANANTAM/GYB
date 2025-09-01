@@ -83,24 +83,7 @@ export default function AboutGYBPage() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.4 }}
       >
-        <div className="max-w-3xl bg-[#fff9f3] border-2 border-[#ecc8a0] rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 shadow-xl hover:shadow-2xl transition">
-          <Image
-  src="/images/SHIV.jpg"
-  alt="Club President"
-  width={160} // corresponds to w-40
-  height={160} // corresponds to h-40
-  className="rounded-full object-cover border-4 border-[#ecc8a0] shadow-lg"
-/>
-
-          <div>
-            <h2 className="text-2xl font-bold text-[#2d1d15] mb-2">SHIV RANJAN KUMAR</h2>
-            <h3 className="text-md font-medium text-[#794d2b] mb-2">President, Get Your Book</h3>
-            <p className="text-[#4b3c2d]">
-              Led GYB with a strong belief in the transformative power of books,
-              our president leadership bring GYB to a different level — a bridge of opportunity and inspiration.
-            </p>
-          </div>
-        </div>
+        
       </motion.section>
 
 
