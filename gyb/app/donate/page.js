@@ -45,44 +45,44 @@ function page() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-16 px-6 bg-yellow-300">
-        <h3 className="text-3xl font-bold text-center text-black mb-10">
-          What Donors Are Saying
-        </h3>
-        <div className="flex flex-wrap justify-center gap-6">
-          {[
-            { name: 'Riya A.', msg: 'Books are the best gift. Happy to support GYB!' },
-            { name: 'Manoj K.', msg: 'A small donation, a big impact.' },
-            { name: 'Elena S.', msg: 'A lovely initiative. Proud to contribute!' },
-          ].map((testimonial, idx) => (
-            <div
-              key={idx}
-              className="bg-white border border-yellow-200 rounded-lg p-6 max-w-sm w-full shadow-sm hover:shadow-lg transition"
-            >
-              <p className="italic text-gray-700">“{testimonial.msg}”</p>
-              <p className="mt-4 font-medium text-yellow-600">– {testimonial.name}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      // {/* Testimonials */}
+      // <section className="py-16 px-6 bg-yellow-300">
+      //   <h3 className="text-3xl font-bold text-center text-black mb-10">
+      //     What Donors Are Saying
+      //   </h3>
+      //   <div className="flex flex-wrap justify-center gap-6">
+      //     {[
+      //       { name: 'Riya A.', msg: 'Books are the best gift. Happy to support GYB!' },
+      //       { name: 'Manoj K.', msg: 'A small donation, a big impact.' },
+      //       { name: 'Elena S.', msg: 'A lovely initiative. Proud to contribute!' },
+      //     ].map((testimonial, idx) => (
+      //       <div
+      //         key={idx}
+      //         className="bg-white border border-yellow-200 rounded-lg p-6 max-w-sm w-full shadow-sm hover:shadow-lg transition"
+      //       >
+      //         <p className="italic text-gray-700">“{testimonial.msg}”</p>
+      //         <p className="mt-4 font-medium text-yellow-600">– {testimonial.name}</p>
+      //       </div>
+      //     ))}
+      //   </div>
+      // </section>
 
-      {/* Call to Action */}
-      <section className="py-20 text-center bg-white">
-        <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-4">
-          Every Page You Fund Turns Into a Brighter Future 📖
-        </h2>
-        <p className="text-gray-700 mb-6">
-          Help us keep the stories flowing to the ones who need them most.
-        </p>
-        <Link
-  href="/contribute"
-  className="inline-block bg-yellow-300 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-md shadow-md transition cursor-pointer text-center"
->
-  Connect With Us
-</Link>
+//       {/* Call to Action */}
+//       <section className="py-20 text-center bg-white">
+//         <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-4">
+//           Every Page You Fund Turns Into a Brighter Future 📖
+//         </h2>
+//         <p className="text-gray-700 mb-6">
+//           Help us keep the stories flowing to the ones who need them most.
+//         </p>
+//         <Link
+//   href="/contribute"
+//   className="inline-block bg-yellow-300 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-md shadow-md transition cursor-pointer text-center"
+// >
+//   Connect With Us
+// </Link>
 
-      </section>
+//       </section>
     </div>
   );
 }
