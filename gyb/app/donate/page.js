@@ -6,7 +6,7 @@ function page() {
       {/* Hero Section */}
       <section className="text-center py-16 px-6 bg-yellow-300">
         <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
-          Donate to GYB – Get Your Book
+          Connect with GYB – Get Your Book
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto text-gray-700">
           Your contribution helps us put a book in every curious hand.
@@ -17,7 +17,7 @@ function page() {
       <section className="flex justify-center items-center px-4 py-12">
         <div className="bg-white rounded-2xl shadow-lg border border-yellow-200 max-w-xl w-full p-8">
           <h2 className="text-4xl font-semibold text-black-500 mb-4 text-center">
-            Make a Donation
+            Make an Enquiry
           </h2>
           <form className="space-y-4">
             <input
@@ -39,7 +39,7 @@ function page() {
   href="/contribute"
   className="block w-full text-center bg-yellow-300 hover:bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md transition duration-200 cursor-pointer"
 >
-  Donate Now
+  Enquire Now
 </Link>
           </form>
         </div>
@@ -79,7 +79,7 @@ function page() {
   href="/contribute"
   className="inline-block bg-yellow-300 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-md shadow-md transition cursor-pointer text-center"
 >
-  Contribute Now
+  Connect With Us
 </Link>
 
       </section>
