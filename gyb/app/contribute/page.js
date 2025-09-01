@@ -21,7 +21,7 @@ export default function ContributePage() {
       >
         <p className="mb-6">
           At GYB, we believe every small effort leads to a ripple of change. Whether you’d like to empower learning through book
-          contributions, extend support by sponsoring an event, or simply help us grow our outreach — your involvement means everything.
+          contributions,or simply help us grow our outreach — your involvement means everything.
         </p>
         <p className="mb-6">
           Every contribution, regardless of its form, adds value to our cause and helps us reach more lives. You can:
@@ -29,7 +29,7 @@ export default function ContributePage() {
 
         <ul className="list-disc ml-6 mb-10 space-y-3">
           <li>📚 Donate books or learning materials</li>
-          <li>🎉 Sponsor a workshop, awareness drive, or student event</li>
+          <li>🎉 Workshops, awareness drive, or student event</li>
           <li>📢 Help us expand by spreading our story</li>
         </ul>
       </motion.div>
@@ -46,7 +46,7 @@ export default function ContributePage() {
         <div className="text-center space-y-2">
           <p><strong>Email:</strong> getyourbook.club@nitp.ac.in</p>
           <p><strong>Phone:</strong> +91-7667874959</p>
-          <p><strong>Instagram:</strong> @gyb_nitp</p>
+          <p><strong>Instagram:</strong> @gyb.club</p>
           <p><strong>Location:</strong> NIT Patna Campus, Bihar</p>
         </div>
       </motion.div>
