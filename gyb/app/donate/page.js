@@ -52,7 +52,7 @@ function page() {
 TOGETHER WE CAN TURN THEIR STRUGGLE INTO STRENGTH
         </h2>
         <p className="text-gray-700 mb-6">
-          Let us connect to discuss anything with that's on your mind.
+          Let us connect to discuss anything with that is on your mind.
         </p>
         <Link
   href="/contribute"
