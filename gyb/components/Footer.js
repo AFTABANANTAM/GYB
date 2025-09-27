@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Left Section */}
           <div>
             <h2 className="text-2xl font-medium mb-6">Get Your Book</h2>
-            <p>+91-7667874959<br />getyourbook.club@nitp.ac.in</p>
+            <p>+91-7667874959<br />getyourbookclub@gmail.com</p>
             <p className="mt-2">National Institute of Technology Patna <br />Ashok Rajpath, Mahendru<br />Patna, Bihar 800005</p>
             <div className="flex space-x-4 mt-4 text-lg">
               <a target='_blank' href=""><FaFacebookF /></a>
